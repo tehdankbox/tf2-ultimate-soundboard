@@ -1,0 +1,98 @@
+{
+  "soldier": {
+    "domination": {
+      "scout": {
+        "soldier_dominationscout01": "Dominated, short pants!",
+        "soldier_dominationscout02": "How's that domination feel, city boy?",
+        "soldier_dominationscout03": "You kids today don't know how to dominate.",
+        "soldier_dominationscout04": "Less talk, more fight.",
+        "soldier_dominationscout05": "You cannot run from me, my gun is faster.",
+        "soldier_dominationscout06": "You run fast, my bullets run faster.",
+        "soldier_dominationscout07": "Never bring a bat to a battlefield, war is not a game.",
+        "soldier_dominationscout08": "Your mouth wrote checks, my gun has cashed them.",
+        "soldier_dominationscout09": "Got anything funny to say about that, funny man?",
+        "soldier_dominationscout10": "Never send a boy to fight a man's war.",
+        "soldier_dominationscout11": "You were in a big fat hurry to die, son."
+      },
+      "soldier": {
+        "soldier_dominationsoldier01": "Dominated, hippie, get a job!",
+        "soldier_dominationsoldier02": "You better hope there's hacky-sack in Hell, hippie!",
+        "soldier_dominationsoldier03": "You are now a conscientious objector to being dead, hippie!",
+        "soldier_dominationsoldier04": "What's the matter, hippie? Hair get in your eyes?",
+        "soldier_dominationsoldier05": "Get a haircut, hippie.",
+        "soldier_dominationsoldier06": "You're a disgrace to the uniform."
+      },
+      "pyro": {
+        "soldier_dominationpyro01": "I just tore you a new chimney, Smokey Joe!",
+        "soldier_dominationpyro02": "You cannot burn me, I'm already on fire!",
+        "soldier_dominationpyro03": "You cannot burn me! I'm already ablaze with passion, for war!",
+        "soldier_dominationpyro04": "You cannot burn me! I do not have time to combust!",
+        "soldier_dominationpyro05": "Fire is for cookin' s'mores, son. Get a real gun.",
+        "soldier_dominationpyro06": "Your fire-retardant ass just got dominated.",
+        "soldier_dominationpyro07": "Ha! Ya fight like a girl!",
+        "soldier_dominationpyro08": "How do you like that, All Quiet on the Western Front?",
+        "soldier_dominationpyro09": "Get a haircut, hippie! [whispered] Just in case."
+      },
+      "demoman": {
+        "soldier_dominationdemoman01": "Dominated, you one-eyed cross-dresser.",
+        "soldier_dominationdemoman02": "Consider yourself dominated, you Scotch son of a bitch!",
+        "soldier_dominationdemoman03": "Dominated, you skirt-twirling drunk.",
+        "soldier_dominationdemoman04": "I love your death, cyclops; your death is sweet to me like love is sweet.",
+        "soldier_dominationdemoman05": "Scotland is not a real country; you are an Englishman with a dress.",
+        "soldier_dominationdemoman06": "You're like the Cyclops of Greek myth; except you are Scottish, and I hate you!"
+      },
+      "heavy": {
+        "soldier_dominationheavy01": "You just got dominated, Sputnik.",
+        "soldier_dominationheavy02": "Stars and Stripes beats Hammer and Sickle. Look it up!",
+        "soldier_dominationheavy03": "You just got dominated, Comrade.",
+        "soldier_dominationheavy04": "Dominated, ya red menace!",
+        "soldier_dominationheavy05": "Go play your pinko chess game with the Devil, Commie!",
+        "soldier_dominationheavy06": "This American boot just kicked your ass back to Russia!",
+        "soldier_dominationheavy07": "Checkmate, Stalingrad!"
+      },
+      "engineer": {
+        "soldier_dominationengineer01": "Dominated, grease monkey.",
+        "soldier_dominationengineer02": "You just got dominated, toymaker.",
+        "soldier_dominationengineer03": "Stop hiding behind your little toys and fight like a man!",
+        "soldier_dominationengineer04": "I will eat your ribs, I will eat them up!",
+        "soldier_dominationengineer05": "That's where books get you, professor!",
+        "soldier_dominationengineer06": "Go back to Calgary, ya cow-herdin' Canadian!"
+      },
+      "medic": {
+        "soldier_dominationmedic01": "You just got dominated, Oktoberfest!",
+        "soldier_dominationmedic02": "You just got dominated, Fritz!",
+        "soldier_dominationmedic03": "America wins again!",
+        "soldier_dominationmedic04": "Ich bin I just kicked your ass!",
+        "soldier_dominationmedic05": "Welcome to the United States of YOU JUST GOT DOMINATED!",
+        "soldier_dominationmedic06": "I'm gonna mail my boot to the Kaiser with your ass around it!",
+        "soldier_dominationmedic07": "Gotcha, Herr Doktor!"
+      },
+      "sniper": {
+        "soldier_dominationsniper01": "This is not a camping trip, Sheila; this is war and I love it!",
+        "soldier_dominationsniper02": "You will not turn my battlefield into a campground.",
+        "soldier_dominationsniper03": "Now hear this, camper, you are not wanted on my beloved battlefield!",
+        "soldier_dominationsniper04": "I will send my condolences to your kangaroo wife.",
+        "soldier_dominationsniper05": "You are a coward, and you died like one.",
+        "soldier_dominationsniper06": "The next time you want to kill a man, look him in the eyes!",
+        "soldier_dominationsniper07": "You just got dominated, Bilbo Baggins!",
+        "soldier_dominationsniper08": "You just got dominated, Balbo Biggins!",
+        "soldier_dominationsniper09": "You just got dominated, Bablo Bravins!",
+        "soldier_dominationsniper10": "You just got dominated, Barble Bapkins!",
+        "soldier_dominationsniper11": "You just got dominated, Bazbo Bibbons!",
+        "soldier_dominationsniper12": "You just got dominated, Bulbo Buttons!",
+        "soldier_dominationsniper13": "Aww, am I too violent for you, cupcake?",
+        "soldier_dominationsniper14": "Your country did not prepare you for the level of violence you will meet on my battlefield!"
+      },
+      "spy": {
+        "soldier_dominationspy01": "Gotcha, crouton.",
+        "soldier_dominationspy02": "You just got your Frenchie ass dominated.",
+        "soldier_dominationspy03": "Ohh-honh-honh-honh-You're dominated.",
+        "soldier_dominationspy04": "Dominated, ya rifle-droppin' coward!",
+        "soldier_dominationspy05": "Hit the showers, Frenchie.",
+        "soldier_dominationspy06": "Your white flag does not stop American bullets.",
+        "soldier_dominationspy07": "Words cannot express how much I hate France right now!",
+        "soldier_dominationspy08": "Bon voyage, crouton!"
+      }
+    }
+  }
+}
