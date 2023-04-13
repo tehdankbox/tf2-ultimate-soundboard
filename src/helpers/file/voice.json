@@ -79,9 +79,9 @@
         "soldier_dominationsniper09": "You just got dominated, Bablo Bravins!",
         "soldier_dominationsniper10": "You just got dominated, Barble Bapkins!",
         "soldier_dominationsniper11": "You just got dominated, Bazbo Bibbons!",
-        "soldier_dominationsniper12": "You just got dominated, Bulbo Buttons!",
-        "soldier_dominationsniper13": "Aww, am I too violent for you, cupcake?",
-        "soldier_dominationsniper14": "Your country did not prepare you for the level of violence you will meet on my battlefield!"
+        "soldier_dominationsniper12": "Aww, am I too violent for you, cupcake?",
+        "soldier_dominationsniper13": "Your country did not prepare you for the level of violence you will meet on my battlefield!",
+        "soldier_dominationsniper14": "You just got dominated, Bulbo Buttons!"
       },
       "spy": {
         "soldier_dominationspy01": "Gotcha, crouton.",
@@ -92,6 +92,56 @@
         "soldier_dominationspy06": "Your white flag does not stop American bullets.",
         "soldier_dominationspy07": "Words cannot express how much I hate France right now!",
         "soldier_dominationspy08": "Bon voyage, crouton!"
+      }
+    },
+    "payload": {
+      "offense/goingback": {
+        "soldier_cartgoingbackoffense01": "Do not let that cart roll back!",
+        "soldier_cartgoingbackoffense02": "The cart needs to go forward!"
+      },
+      "offense/goingforward": {
+        "soldier_cartgoingforwardoffense01": "Move, move, move!",
+        "soldier_cartgoingforwardoffense02": "Push!",
+        "soldier_cartgoingforwardoffense03": "I do not see enough pushing!",
+        "soldier_cartgoingforwardoffense04": "Push, that is an order!",
+        "soldier_cartgoingforwardoffense05": "Push that cart!",
+        "soldier_cartgoingforwardoffense06": "Push that cart forward!",
+        "soldier_cartgoingforwardoffense07": "Push, cream-puffs!",
+        "soldier_cartgoingforwardoffense08": "Push, you apple-blossoms!",
+        "soldier_cartgoingforwardoffense09": "Push, you butter muffins!",
+        "soldier_cartgoingforwardoffense10": "Ladies, let's get this cart moving!",
+        "soldier_cartgoingforwardoffense11": "You will push this cart or I will push you into a grave!",
+        "soldier_cartgoingforwardoffense12": "We will push until there is nothing left to push!",
+        "soldier_cartgoingforwardoffense13": "Push!",
+        "soldier_cartgoingforwardoffense14": "Keep pushing!",
+        "soldier_cartgoingforwardoffense15": "Push like you mean it!"
+      },
+      "offense/stayclose": {
+        "soldier_cartstaycloseoffense01": "Get to the cart!",
+        "soldier_cartstaycloseoffense02": "Get to the cart, ladies!",
+        "soldier_cartstaycloseoffense03": "Everyone, get to the cart!",
+        "soldier_cartstaycloseoffense04": "Get to the cart, maggots!",
+        "soldier_cartstaycloseoffense05": "Stick to that cart like glue, that is an order!",
+        "soldier_cartstaycloseoffense06": "Get to the cart! Hup, hup, hup!"
+      },
+      "offense/stopped": {
+        "soldier_cartstoppedoffense01": "Why is that cart stopped, maggots?!",
+        "soldier_cartstoppedoffense02": "I do not see a cart moving, ladies!",
+        "soldier_cartstoppedoffense03": "Why is that cart not moving?!"
+      },
+      "defense/goingback": {
+        "soldier_cartgoingbackdefense01": "The cart's falling back!",
+        "soldier_cartgoingbackdefense02": "That's it, men, move that cart back!"
+      },
+      "defense/goingforward": {
+        "soldier_cartgoingforwarddefense01": "Do not let that cart go forward!",
+        "soldier_cartgoingforwarddefense02": "Hold the line, men! Stop that cart!",
+        "soldier_cartgoingforwarddefense03": "Stop that cart!"
+      },
+      "defense/stopit": {
+        "soldier_cartstopitdefense01": "Stand next to the cart, damn you!",
+        "soldier_cartstopitdefense02": "Get to the cart!",
+        "soldier_cartstopitdefense03": "You will stand next to that cart or I will stand you next to that cart!"
       }
     }
   }

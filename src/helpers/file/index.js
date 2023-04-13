@@ -1,7 +1,7 @@
-import soldierJSON from "./soldier.json";
+import voiceJSON from "./voice.json";
 
 export default {
-  soldier: soldierJSON,
+  voice: voiceJSON,
 };
 
 export const findFile = (className, voiceline, number) => {
@@ -12,7 +12,7 @@ export const findFile = (className, voiceline, number) => {
   }
 
   // acessa o objeto de acordo com o índice
-  let accessedObj = soldierJSON[className];
+  let accessedObj = voiceJSON[className];
   voicelinePath.forEach((level) => {
     accessedObj = accessedObj[level];
   });
@@ -25,20 +25,34 @@ export const findFile = (className, voiceline, number) => {
   return [file, text];
 };
 
-export const loadAllFiles = (className, voiceline) => {
+export const loadFilesFromCategory = (className, voiceline) => {
   let voicelinePath = "";
   // separa o índice a ser acessado em um array
   if (voiceline.includes("/")) {
     voicelinePath = voiceline.split("/");
   }
 
+  console.log(voicelinePath);
+
   // acessa o objeto de acordo com o índice
-  let accessedObj = soldierJSON[className];
+  let accessedObj = voiceJSON[className];
   voicelinePath.forEach((level) => {
     accessedObj = accessedObj[level];
   });
+  console.log(accessedObj);
 
   return accessedObj;
+};
+
+export const loadFilesFromTab = (className, tabName) => {
+  // acessa o objeto de acordo com o índice
+  let accessedObj = voiceJSON[className][tabName];
+
+  let accessedArray = Object.keys(accessedObj).map((e) => {
+    return accessedObj[e];
+  });
+
+  return accessedArray;
 };
 
 export const findPath = (className, voiceline) => {
