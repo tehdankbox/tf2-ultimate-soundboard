@@ -1,9 +1,7 @@
 <template>
   <q-item
     clickable
-    tag="a"
-    target="_blank"
-    :href="link"
+    @click="$emit('select', pageName)"
   >
     <q-item-section
       v-if="icon"
@@ -14,7 +12,6 @@
 
     <q-item-section>
       <q-item-label>{{ title }}</q-item-label>
-      <q-item-label caption>{{ caption }}</q-item-label>
     </q-item-section>
   </q-item>
 </template>
@@ -23,21 +20,16 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'EssentialLink',
+  name: 'PageMenu',
   props: {
     title: {
       type: String,
       required: true
     },
 
-    caption: {
+    pageName: {
       type: String,
-      default: ''
-    },
-
-    link: {
-      type: String,
-      default: '#'
+      default: 'scout'
     },
 
     icon: {

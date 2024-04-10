@@ -1,10 +1,14 @@
 <template>
-  <q-page class="flex flex-start">
+  <div class="flex content-start">
     <div
       v-for="(category, categoryIndex) in getTabValues()"
       :key="categoryIndex"
       class="voiceline-button-container"
     >
+      <div class="voiceline-container-separator">
+        {{ category.index }}
+      </div>
+
       <q-btn
         v-for="(voiceline, voicelineIndex) in getCategoryValues(category)"
         :key="voicelineIndex"
@@ -14,21 +18,22 @@
         class="voiceline-button"
         unelevated
         no-caps
+        align="left"
         @click="findAndPlayFile(voiceline.name)"
       />
     </div>
-  </q-page>
+  </div>
 </template>
 
 <script>
-import { findPath, loadFilesFromTab } from 'src/helpers/file/index.js';
+import { findPath, loadFilesFromTab, dupe } from 'src/helpers/file/index.js';
 import { playSound } from 'src/helpers/sound.js';
 
 export default {
   name: 'VoiceLineTab',
 
   props: {
-    class: {
+    className: {
       type: String,
       required: true,
     },
@@ -41,22 +46,24 @@ export default {
 
   methods: {
     findAndPlayFile(voiceName) {
-      const filePath = findPath(this.class, voiceName);
+      const filePath = findPath(this.className, voiceName);
       playSound(filePath);
     },
 
     getTabValues() {
-      const tabFiles = loadFilesFromTab(this.class, this.tab);
+      const tabFiles = loadFilesFromTab(this.className, this.tab);
       return tabFiles;
     },
 
     getCategoryValues(tab) {
       let category = [];
 
-      Object.keys(tab).forEach((e) => {
+      const tabObject = dupe(tab);
+
+      Object.keys(tabObject).forEach((e) => {
         let obj = {
           name: e,
-          label: tab[e]
+          label: tabObject[e]
         }
         category.push(obj);
       });
@@ -66,37 +73,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss">
-  .voiceline-button-container {
-    background: $primary;
-    width: 100%;
-
-    & .voiceline-button {
-      width: 100%;
-      border-bottom: 1px solid $border1;
-      max-width: 100vw;
-      min-height: 2.5rem;
-
-      & .q-btn__content .block {
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
-      }
-    }
-
-    &:after {
-      content: "";
-      display: flex;
-      background-color: $primary;
-      width: 100%;
-      height: 1.25rem;
-      border-bottom: 1px solid $border1;
-    }
-
-    &:last-child:after {
-      height: 2.5rem;
-      border-bottom-width: 0;
-    }
-  }
-</style>
