@@ -1,7 +1,750 @@
 {
-  "soldier": {
+  "heavy": {
+    "index": "Heavy",
+    "laugh": {
+      "index": "Laugh",
+      "laughevil": {
+        "index": "Evil laugh",
+        "heavy_laughevil01": "(Evil laugh 1)",
+        "heavy_laughevil02": "(Evil laugh 2)",
+        "heavy_laughevil03": "(Evil laugh 3)",
+        "heavy_laughevil04": "(Evil laugh 4)"
+      },
+      "laughterbig": {
+        "index": "Big laugh",
+        "heavy_laughterbig01": "(Big laugh 1)",
+        "heavy_laughterbig02": "(Big laugh 2)",
+        "heavy_laughterbig03": "(Big laugh 3)",
+        "heavy_laughterbig04": "(Big laugh 4)"
+      },
+      "laughhappy": {
+        "index": "Happy laugh",
+        "heavy_laughhappy01": "(Happy laugh 1)",
+        "heavy_laughhappy02": "(Happy laugh 2)",
+        "heavy_laughhappy03": "(Happy laugh 3)",
+        "heavy_laughhappy04": "(Happy laugh 4)",
+        "heavy_laughhappy05": "(Happy laugh 5)"
+      },
+      "laughlong": {
+        "index": "Long Laugh",
+        "heavy_laughlong01": "(Long laugh 1)",
+        "heavy_laughlong02": "(Long laugh 2)",
+        "heavy_laughterbigsnort01": "(Long laugh 3)"
+      },
+      "laughshort": {
+        "index": "Short laugh",
+        "heavy_laughshort01": "(Short laugh 1)",
+        "heavy_laughshort02": "(Short laugh 2)",
+        "heavy_laughshort03": "(Short laugh 3)"
+      }
+    },
+    "negative": {
+      "index": "Negative",
+      "no": {
+        "index": "No",
+        "heavy_no01": "Nyet!",
+        "heavy_no02": "No!",
+        "heavy_no03": "Is not possible!"
+      },
+      "jeers": {
+        "index": "Jeers",
+        "heavy_jeers01": "Boooooooo!",
+        "heavy_jeers02": "Aaaaaaagh!",
+        "heavy_jeers03": "Stupid, stupid, stupid!",
+        "heavy_jeers04": "Ohhhhhhh!",
+        "heavy_jeers05": "Ohhhh, it is sad day!",
+        "heavy_jeers06": "Which one of you is crying?",
+        "heavy_jeers07": "Daaaagh, too many little men on this team!",
+        "heavy_jeers08": "Tell me, where did we go so wrong?",
+        "heavy_jeers09": "How could this happen?"
+      },
+      "negativevocalization": {
+        "index": "Negative",
+        "heavy_negativevocalization01": "Dahhhh!",
+        "heavy_negativevocalization02": "Oh nooooo!",
+        "heavy_negativevocalization03": "Not good!",
+        "heavy_negativevocalization04": "Very bad!",
+        "heavy_negativevocalization05": "Bad!",
+        "heavy_negativevocalization06": "Oh, this is bad!"
+      },
+      "autodejectedtie": {
+        "index": "Stalemate",
+        "heavy_autodejectedtie01": "We lose, but they do not win?",
+        "heavy_autodejectedtie02": "Everyone loses! (laughs sarcastically)",
+        "heavy_autodejectedtie03": "Aauugh!"
+      }
+    }
+  },
+  "scout": {
+    "index": "Scout",
     "domination": {
+      "index": "Domination",
+      "dominated": {
+        "index": "Dominated (Any)",
+        "scout_domination02": "Yeah, that's right!",
+        "scout_domination15": "You're gettin' dominated, chucklehead!",
+        "scout_domination16": "'Domination'. Look it up.",
+        "scout_misc07": "You're like a car crash in slow motion. It's like I'm watchin' ya fly through a windshield."
+      },
+      "dominatedmelee": {
+        "index": "Dominated with melee kill",
+        "scout_misc04": "Man, your skull's so soft you're makin' this easy!",
+        "scout_misc05": "Pop quiz: How long's it take to beat a moron to death? (buzzer imitation) Sorry, time's up, you're dead."
+      },
       "scout": {
+        "index": "Scout",
+        "scout_domination05": "Hey, knucklehead, you ain't gonna win.",
+        "scout_domination07": "Ha ha! Look at you! You look like you ran through traffic!",
+        "scout_domination13": "Hit the bricks, pal. You're done.",
+        "scout_domination14": "You... Are... Terrible!",
+        "scout_domination19": "Yeah, I dare ya, rage quit. C'mon, make us both happy!",
+        "scout_domination20": "Oh, what, you gonna cry? You gonna cry now?",
+        "scout_domination21": "I will never... Stop... Killing you.",
+        "scout_dominationsct01": "I am the Scout here!",
+        "scout_dominationsct02": "This map ain't big enough for the two of us.",
+        "scout_dominationsct03": "Hit the road, bozo! Let a real Scout get to work!"
+      },
+      "soldier": {
+        "index": "Soldier",
+        "scout_dominationsol01": "Yo, I'm not even wearin' a helmet!",
+        "scout_dominationsol02": "What is your major malfunction, brother?",
+        "scout_dominationsol03": "Drop dead and gimme 20!",
+        "scout_dominationsol04": "You're a disgrace to the uniform, pal!",
+        "scout_dominationsol05": "Dis-missed!",
+        "scout_dominationsol06": "There ain't enough crits in the world to kill me!"
+      },
+      "pyro": {
+        "index": "Pyro",
+        "scout_domination06": "It's startin' to bore me how much you suck.",
+        "scout_dominationpyr01": "Hey, who's on fire now?",
+        "scout_dominationpyr02": "Yo, if you didn't want me to kill ya, ya shoulda said somethin'!",
+        "scout_dominationpyr03": "Repeat after me: mhmm-mhmm-mhmm I'm dead!",
+        "scout_dominationpyr04": "Take that, ya dumb, bib-wearin' dope!",
+        "scout_dominationpyr05": "Eat it, ya mute, frickin' moron!",
+        "scout_dominationpyr06": "Yeah, nice moves, mumbles!",
+        "scout_misc08": "Dude, you'd get a closed casket at the ugly cemetery."
+      },
+      "demoman": {
+        "index": "Demoman",
+        "scout_domination01": "You just got freakin' dominated, knucklehead, all right, let's do this!",
+        "scout_domination10": "I don't usually kill morons this fast.",
+        "scout_dominationdem01": "Yeah, next time, try two eyes!",
+        "scout_dominationdem02": "Blow that up, cyclops!",
+        "scout_dominationdem03": "The best man won, ya bomb-throwin' drunk!",
+        "scout_dominationdem04": "Your clock just got cleaned, rummy!",
+        "scout_dominationdem05": "Depth perception, pal. Look into it."
+      },
+      "heavy": {
+        "index": "Heavy",
+        "scout_domination08": "Drink it in, pal. That's how failure tastes.",
+        "scout_domination09": "Would you look at you? I mean, look at you.",
+        "scout_dominationhvy01": "I am owning you, you fat, bald bastard!",
+        "scout_dominationhvy02": "Today ain't yer day, pancakes!",
+        "scout_dominationhvy03": "$400,000 to fire that gun, huh? Yeah, money well spent!",
+        "scout_dominationhvy04": "Them $200 bullets ain't so hot when they don't hit nuthin', are they?",
+        "scout_dominationhvy05": "I think I'll take Sasha out for a steak dinner tonight. Whataya think about that?",
+        "scout_dominationhvy06": "Ain't so hard now, are ya, fatcakes?",
+        "scout_dominationhvy07": "I... Eat... Your... Sandwiches. I eat 'em up!",
+        "scout_dominationhvy08": "Nice hustle, 'tons-a-fun'! Next time, eat a salad!",
+        "scout_dominationhvy09": "Hey, lard-fat, those hard arteries don't stop bullets, do they?",
+        "scout_dominationhvy10": "I am owning you, you fat, bald, fatty fat... fat fat!"
+      },
+      "engineer": {
+        "index": "Engineer",
+        "scout_domination17": "Is that all you got, moron?",
+        "scout_dominationeng01": "Hey, here's somethin' you can invent next time: duckin'!",
+        "scout_dominationeng02": "Here's something you shoulda built: a not-dyin' machine!",
+        "scout_dominationeng03": "Don't bring a wrench to a gunfight!",
+        "scout_dominationeng04": "Here's a schematic for ya: my ass!",
+        "scout_dominationeng05": "Hey, overalls! You suck!",
+        "scout_dominationeng06": "Lotta good that hardhat did ya!"
+      },
+      "medic": {
+        "index": "Medic",
+        "scout_misc02": "If you order now, I'll throw in a second beatin', absolutely free.",
+        "scout_dominationmed01": "Diagnosis: you suck!",
+        "scout_dominationmed02": "Ooh hoo hoo, your gun shoots medicine! It's intimidatin'!",
+        "scout_dominationmed03": "Where's your precious Hippo-crates now?",
+        "scout_dominationmed04": "Real nice effort, Deutsch-bag!",
+        "scout_dominationmed05": "I... Hate... Doctors!",
+        "scout_dominationmed06": "*Sigh* Doctor, doctor, doctor..."
+      },
+      "sniper": {
+        "index": "Sniper",
+        "scout_domination12": "Look at this: just caved in your skull, my bat's still dry. No clumps of hair - nothin'.",
+        "scout_dominationsnp01": "Snipe that, ya frickin' coward!",
+        "scout_dominationsnp02": "That fancy scope of yours, betcha got a real good view of me killin' ya!",
+        "scout_dominationsnp03": "You camped the whole time for this?!",
+        "scout_dominationsnp04": "It was a mercy killin', ya live in a... Campervan!",
+        "scout_dominationsnp05": "You'll never hit me! You'll never hit my tiny head! It's so tiny, I got a frickin'... Such a tiny li'l head!"
+      },
+      "spy": {
+        "index": "Spy",
+        "scout_award10": "I'll put it in my trophy room, with the othas.",
+        "scout_dominationspy01": "Disguise dat!",
+        "scout_dominationspy02": "Dominated, ya shapeshiftin' rat!",
+        "scout_dominationspy03": "Hard to stab a guy in the back when he's beatin' your frickin' head in, huh?",
+        "scout_dominationspy04": "Hehey, look, you shapeshifted into a dead guy!"
+      },
+      "revenge": {
+        "index": "Revenge",
+        "scout_revenge01": "I wasted you!",
+        "scout_revenge02": "How do ya like me now, blockhead?",
+        "scout_revenge03": "Ya like that, chucklenuts?",
+        "scout_revenge04": "Boom! I'm back, dummy!",
+        "scout_revenge05": "Remember me? Yeah, ya do!",
+        "scout_revenge06": "Don't you ever cross me again!",
+        "scout_revenge07": "What have we learned? I always win!",
+        "scout_revenge08": "Who's the tough guy now, huh, tough guy?",
+        "scout_revenge09": "Still think you're funny, funny-man?",
+        "scout_misc09": "Wassamatter, y'freakin' stupid?"
+      }
+    },
+    "exclamation": {
+      "index": "Exclamation",
+      "battlecry": {
+        "index": "Battle Cry",
+        "scout_battlecry01": "Play ball!",
+        "scout_battlecry02": "Let's get 'em!",
+        "scout_battlecry05": "Let's waste 'em!",
+        "scout_battlecry03": "Eat my dust!",
+        "scout_battlecry04": "Wohoooo!"
+      },
+      "meleedare": {
+        "index": "Battle Cry - Looking at enemy",
+        "scout_meleedare01": "Let's go.",
+        "scout_meleedare02": "Bring it.",
+        "scout_meleedare03": "Let's do dis.",
+        "scout_meleedare04": "You 'n me.",
+        "scout_meleedare05": "Put 'em up, pal.",
+        "scout_meleedare06": "C'mon, tough guy!",
+        "scout_misc03": "I'm gonna beat on your skull 'till I hit tonsils.",
+        "scout_taunts05": "I'm gonna headbutt cha', I'm gonna headbutt cha', I'm gonna headbutt cha'!",
+        "scout_taunts06": "Yeah, come get some, you frickin' wuss!",
+        "scout_taunts10": "What are you lookin at?!"
+      },
+      "incoming": {
+        "index": "Incoming!",
+        "scout_incoming01": "Incoming! (1)",
+        "scout_incoming03": "Incoming! (2)",
+        "scout_incoming02": "Yo, incoming!"
+      },
+      "sentryahead": {
+        "index": "Sentry Ahead!",
+        "scout_sentryahead01": "Sentry ahead!",
+        "scout_sentryahead02": "Sentry up there!",
+        "scout_sentryahead03": "They got a Sentry up there!"
+      },
+      "spy": {
+        "index": "Spy!",
+        "scout_cloakedspy02": "Spy!",
+        "scout_cloakedspy04": "We got a Spy!",
+        "scout_cloakedspy03": "There's a Spy over here!",
+        "scout_cloakedspy01": "Yeah, there's a Spy over there!",
+        "scout_cloakedspyidentify01": "The freakin' Scout's a Spy!",
+        "scout_cloakedspyidentify02": "The freakin' Soldier's a Spy!",
+        "scout_cloakedspyidentify04": "That freakin' Pyro's a Spy!",
+        "scout_cloakedspyidentify05": "The freakin' Demo's a Spy!",
+        "scout_cloakedspyidentify03": "The freakin' Heavy's a Spy!",
+        "scout_cloakedspyidentify08": "That freakin' Hard Hat's a Spy!",
+        "scout_cloakedspyidentify07": "That freakin' Medic's a Spy!",
+        "scout_cloakedspyidentify09": "That freakin' Sniper's a Spy!",
+        "scout_cloakedspyidentify06": "That Spy ain't one of us!"
+      }
+    },
+    "laugh": {
+      "index": "Laugh",
+      "laughevil": {
+        "index": "Evil laugh",
+        "scout_laughevil01": "Evil laugh (1)",
+        "scout_laughevil02": "Evil laugh (2)",
+        "scout_laughevil03": "Evil laugh (3)"
+      },
+      "laughhappy": {
+        "index": "Happy laugh",
+        "scout_laughhappy01": "Happy laugh (1)",
+        "scout_laughhappy02": "Happy laugh (2)",
+        "scout_laughhappy03": "Happy laugh (3)",
+        "scout_laughhappy04": "Happy laugh (4)"
+      },
+      "laughlong": {
+        "index": "Long Laugh",
+        "scout_laughlong01": "Long laugh (1)",
+        "scout_laughlong02": "Long laugh (2)"
+      },
+      "laughshort": {
+        "index": "Short laugh",
+        "scout_laughshort01": "Short laugh (1)",
+        "scout_laughshort02": "Short laugh (2)",
+        "scout_laughshort03": "Short laugh (3)",
+        "scout_laughshort04": "Short laugh (4)",
+        "scout_laughshort05": "Short laugh (5)"
+      }
+    },
+    "negative": {
+      "index": "Negative",
+      "no": {
+        "index": "No",
+        "scout_no01": "Uh, no.",
+        "scout_no02": "No!",
+        "scout_no03": "No way!"
+      },
+      "jeers": {
+        "index": "Jeers",
+        "scout_jeers02": "Booooo!",
+        "scout_jeers03": "*blows a raspberry*",
+        "scout_jeers04": "Frickin' unbelievable!",
+        "scout_jeers05": "This did not just happen!",
+        "scout_jeers06": "This sucks on ice.",
+        "scout_jeers07": "No seriously, you all suck.",
+        "scout_jeers08": "What the hell is you guys' problem?",
+        "scout_jeers09": "Aw, jeez!",
+        "scout_jeers10": "This sucks!",
+        "scout_jeers11": "What the hell was that crap?",
+        "scout_jeers12": "This is a real frickin' embarrassment!"
+      },
+      "negativevocalization": {
+        "index": "Negative",
+        "scout_negativevocalization01": "Ugh!",
+        "scout_negativevocalization02": "We are screwed!",
+        "scout_negativevocalization03": "Stupid, stupid, stupid!",
+        "scout_negativevocalization04": "Augh..!",
+        "scout_negativevocalization05": "'Kay, this does not look good here.. um.."
+      },
+      "autodejectedtie": {
+        "index": "Stalemate",
+        "scout_autodejectedtie01": "You have got to be kidding!",
+        "scout_autodejectedtie02": "You gotta be kiddin' me!",
+        "scout_autodejectedtie03": "I can not believe this!",
+        "scout_autodejectedtie04": "Auugghh!"
+      }
+    },
+    "objective": {
+      "index": "Objective",
+      "autocappedcontrolpoint": {
+        "index": "Captured control point",
+        "scout_autocappedcontrolpoint01": "Yeah, yeah, yeah!",
+        "scout_autocappedcontrolpoint02": "Yeah!",
+        "scout_autocappedcontrolpoint03": "I got it, I got it!",
+        "scout_autocappedcontrolpoint04": "No problem!"
+      },
+      "autocappedintelligence": {
+        "index": "Captured intelligence",
+        "scout_autocappedintelligence01": "Yeah, it's ours now!",
+        "scout_autocappedintelligence02": "I'm not even winded.",
+        "scout_autocappedintelligence03": "I got it, I got it, I got it!",
+        "scout_specialcompleted05": "Wave goodbye to your secret crap, dumbass!"
+      },
+      "fightoncap": {
+        "index": "Standing on enemy point",
+        "scout_fightoncap01": "Hey, get on the cap, guys!",
+        "scout_fightoncap02": "Stand on the freakin' cap!",
+        "scout_fightoncap03": "Let's get on the cap, fellas!",
+        "scout_fightoncap04": "Get on the cap, ya dopes!"
+      },
+      "helpmecapture": {
+        "index": "Help! - Standing on enemy point",
+        "scout_helpmecapture01": "Yo, I need help cappin'!",
+        "scout_helpmecapture02": "I'm cappin' over here, who's with me?",
+        "scout_helpmecapture03": "Am I gonna hafta capture this thing by myself?",
+        "scout_standonthepoint01": "Stand on the freakin' point, you moron!",
+        "scout_standonthepoint02": "What the hell is wrong with you? Stand on the freakin' point!",
+        "scout_standonthepoint03": "Get on the freakin' point dumbass!",
+        "scout_standonthepoint04": "Would you kindly move ya ass to the freakin' point?",
+        "scout_standonthepoint05": "How's the weather over there, dumbass? Get to the freakin' point!"
+      },
+      "helpmedefend": {
+        "index": "Help! - Standing on friendly point",
+        "scout_helpmedefend01": "Get over here and help me defend!",
+        "scout_helpmedefend02": "Defend the freakin' point!",
+        "scout_helpmedefend03": "What? Am I gonna hafta defend this thing by myself?"
+      }
+    },
+    "positive": {
+      "index": "Positive",
+      "yes": {
+        "index": "Yes",
+        "scout_yes01": "Yeah!",
+        "scout_yes02": "Yeah, gotcha!",
+        "scout_yes03": "Gotcha!"
+      },
+      "cheers": {
+        "index": "Cheers",
+        "scout_cheers01": "YES!",
+        "scout_cheers02": "I did it!",
+        "scout_cheers03": "Wohohoo!",
+        "scout_cheers04": "Sweet!",
+        "scout_cheers05": "Wicked!",
+        "scout_cheers06": "Oh yeah!"
+      },
+      "positivevocalization": {
+        "index": "Positive",
+        "scout_positivevocalization01": "Ha ha ha... yeah...",
+        "scout_positivevocalization02": "Alright!",
+        "scout_positivevocalization03": "Yo, we're on fire!",
+        "scout_positivevocalization04": "Woo!",
+        "scout_positivevocalization05": "That's what I'm talking about!"
+      },
+      "goodjob": {
+        "index": "Good Job!",
+        "scout_goodjob01": "'Atta boy!",
+        "scout_goodjob02": "That's what I'm talking about!",
+        "scout_goodjob03": "Dat was all you!",
+        "scout_goodjob04": "Alright, yeah, that's- naw, that's a pretty good job."
+      },
+      "niceshot": {
+        "index": "Nice Shot!",
+        "scout_niceshot01": "Nice shot!",
+        "scout_niceshot02": "Hey, nice shootin' there!",
+        "scout_niceshot03": "Way ta go, slugger!"
+      },
+      "thanks": {
+        "index": "Thanks!",
+        "scout_thanks01": "Thanks, pally!",
+        "scout_thanks02": "Yeah, yeah, thanks!",
+        "scout_specialcompleted-assistedkill01": "Way to go, pally!",
+        "scout_specialcompleted-assistedkill02": "We got 'em, we got 'em!"
+      },
+      "thanksfortheheal": {
+        "index": "Healed by Medic",
+        "scout_thanksfortheheal01": "All right, I feel good.",
+        "scout_thanksfortheheal02": "*Deep exhale* Yeah, thanks, doc.",
+        "scout_thanksfortheheal03": "Thanks, doc."
+      },
+      "thanksfortheteleporter": {
+        "index": "Teleported",
+        "scout_thanksfortheteleporter01": "Thanks for the ride!",
+        "scout_thanksfortheteleporter02": "Hey good job there, hardhat!",
+        "scout_thanksfortheteleporter03": "Thanks for that, tough guy!"
+      }
+    },
+    "requests": {
+      "index": "Requests",
+      "go": {
+        "index": "Go!",
+        "scout_go01": "Let's go, let's go, let's go!",
+        "scout_go02": "Let's go!",
+        "scout_go03": "Go go go!",
+        "scout_go04": "Would you just let's go?"
+      },
+      "moveup": {
+        "index": "Move up!",
+        "scout_moveup01": "Move it up, move it up!",
+        "scout_moveup02": "Come on, move it up!",
+        "scout_moveup03": "Let's move it up!"
+      },
+      "headleft": {
+        "index": "Go Left!",
+        "scout_headleft01": "Alright, go left!",
+        "scout_headleft02": "To the left!",
+        "scout_headleft03": "Left left left!"
+      },
+      "headright": {
+        "index": "Go Right!",
+        "scout_headright01": "Go right!",
+        "scout_headright02": "Yeah, let's go to the right!",
+        "scout_headright03": "Right right right!"
+      },
+      "helpme": {
+        "index": "Help!",
+        "scout_helpme01": "Help!",
+        "scout_helpme02": "Yo, a little help here?",
+        "scout_helpme03": "I'm dying here!",
+        "scout_helpme04": "Uhh... little help?"
+      },
+      "needbuilding": {
+        "index": "Build here!",
+        "scout_needdispenser01": "Need a Dispenser here.",
+        "scout_needsentry01": "Need a Sentry here.",
+        "scout_needteleporter01": "Need a Teleporter here."
+      },
+      "medic": {
+        "index": "Medic!",
+        "scout_medic02": "Medic!",
+        "scout_medic01": "MEDIC!",
+        "scout_medic03": "Doc! Come on, man!"
+      },
+      "medicfollow": {
+        "index": "Medic! - Follow Me!",
+        "scout_medicfollow01": "C'mon Doc, follow me.",
+        "scout_medicfollow02": "This way, Doc.",
+        "scout_medicfollow03": "Doc, this way.",
+        "scout_medicfollow04": "Follow me, Doc."
+      },
+      "activatecharge": {
+        "index": "Medic! - Activate Übercharge!",
+        "scout_activatecharge01": "Hit it, Doc!",
+        "scout_activatecharge02": "Come on, Doc, do it!",
+        "scout_activatecharge03": "Do it, Doc, do it!"
+      }
+    },
+    "screams": {
+      "index": "Screams",
+      "autoonfire": {
+        "index": "On fire!",
+        "scout_autoonfire01": "Fire, fire, fire!",
+        "scout_autoonfire02": "Oh, I'm burnin', I'm-I'm burnin'!"
+      },
+      "paincrticialdeath": {
+        "index": "Critical pain",
+        "scout_paincrticialdeath01": "(Dying scream 1)",
+        "scout_paincrticialdeath02": "(Dying scream 2)",
+        "scout_paincrticialdeath03": "(Dying scream 3)"
+      },
+      "painsevere": {
+        "index": "Severe pain",
+        "scout_painsevere01": "Aaaaah!",
+        "scout_painsevere02": "Aah!",
+        "scout_painsevere03": "Ah!",
+        "scout_painsevere04": "Nnrg!",
+        "scout_painsevere05": "Uh!",
+        "scout_painsevere06": "Ugh!"
+      },
+      "painsharp": {
+        "index": "Sharp pain",
+        "scout_painsharp01": "Uh!",
+        "scout_painsharp02": "Argh!",
+        "scout_painsharp03": "Aw!",
+        "scout_painsharp04": "Ah!",
+        "scout_painsharp05": "Ugh!",
+        "scout_painsharp06": "Uf!",
+        "scout_painsharp07": "Puh!",
+        "scout_painsharp08": "Nf!"
+      }
+    },
+    "special": {
+      "index": "Special",
+      "awards": {
+        "index": "Achievement Unlocked",
+        "scout_award01": "Hey, look at me, look at me!",
+        "scout_award02": "Hey, look at me, Ma!",
+        "scout_award03": "Aw, fellas!",
+        "scout_award04": "Hi, Ma!",
+        "scout_award05": "Look at me!",
+        "scout_award07": "No otha' class gonna do dat!",
+        "scout_award08": "You see dat?",
+        "scout_award09": "You seein' dis?",
+        "scout_award10": "I'll put it in my trophy room, with the othas.",
+        "scout_award11": "I don't know who to thank first... Oh, I know, me!",
+        "scout_award12": "Bang! I make it look easy."
+      },
+      "specialcompleted": {
+        "index": "Special completed",
+        "scout_specialcompleted03": "Bonk!",
+        "scout_specialcompleted02": "Boink!",
+        "scout_specialcompleted01": "Eat it, fatty!",
+        "scout_specialcompleted04": "Yo, batter up!",
+        "scout_specialcompleted06": "Yo, I oughta' be on a baseball card!",
+        "scout_specialcompleted07": "I'm battin' a thousand!",
+        "scout_specialcompleted09": "'Ey, is somebody keepin' track of my heads batted in?",
+        "scout_specialcompleted10": "I broke your stupid crap, moron!",
+        "scout_specialcompleted11": "How's that feel, wimp?",
+        "scout_specialcompleted12": "Ya got anything smart ta say now?"
+      },
+      "taunts": {
+        "index": "Special taunts",
+        "scout_taunts01": "I'm runnin' circles around ya!",
+        "scout_taunts02": "Ooooh yeah, you're real scary!",
+        "scout_taunts03": "Yeah, why don't you come over and say that to my face, tough guy?",
+        "scout_taunts04": "Not so tough now, are ya? Are ya?!",
+        "scout_taunts05": "I'm gonna headbutt cha', I'm gonna headbutt cha', I'm gonna headbutt cha'!",
+        "scout_taunts06": "Yeah, come get some, you frickin' wuss!",
+        "scout_taunts07": "Who wants some-a this?",
+        "scout_taunts08": "Say goodbye to ya kneecaps, chucklehead!",
+        "scout_taunts09": "Hey, lotta' good that gun didya!",
+        "scout_taunts10": "What are you lookin at?!",
+        "scout_taunts11": "Ya head's a freakin' bat magnet!",
+        "scout_taunts12": "Hey, knucklehead, I'm talking ta you!",
+        "scout_taunts13": "You're all losers!",
+        "scout_taunts14": "Hey, wimps!",
+        "scout_taunts15": "You wimps suck!",
+        "scout_taunts16": "You knuckleheads ain't even worth the effort.",
+        "scout_taunts17": "You morons are about to catch a real beatin'.",
+        "scout_taunts18": "Oh hey! You suck.",
+        "scout_misc03": "I'm gonna beat on your skull 'till I hit tonsils."
+      },
+      "apexofjump": {
+        "index": "Double jumping",
+        "scout_apexofjump01": "Hehey, I'm flyin'!",
+        "scout_apexofjump02": "Woo hoo hoo!",
+        "scout_apexofjump03": "Look at you chuckleheads down there!",
+        "scout_apexofjump04": "Hey, I can see my base from here!",
+        "scout_apexofjump05": "Look at me, Ma!"
+      },
+      "triplejump": {
+        "index": "Triple jumping",
+        "scout_triplejump01": "Woohoohoohoo!",
+        "scout_triplejump02": "Yeaheaheah!",
+        "scout_triplejump03": "Woooooo!",
+        "scout_triplejump04": "Yeaahehehhh!"
+      }
+    },
+    "items": {
+      "index": "Items",
+      "invincible": {
+        "index": "Bonk! Atomic Punch - Drinking",
+        "scout_invincible01": "Un-freakin'-touchable!",
+        "scout_invincible02": "Ya can't hit what ain't dere!",
+        "scout_invincible03": "Wananananana...",
+        "scout_invincible04": "I'm a freakin' blur here!",
+        "scout_award05": "Look at me!"
+      },
+      "beingshotinvincible": {
+        "index": "Bonk! Atomic Punch - Being shot",
+        "scout_beingshotinvincible01": "Ha.",
+        "scout_beingshotinvincible02": "Missed me!",
+        "scout_beingshotinvincible03": "Dat didn't hurt.",
+        "scout_beingshotinvincible04": "Psyche!",
+        "scout_beingshotinvincible05": "Nice try, pal!",
+        "scout_beingshotinvincible06": "Oh what's up?",
+        "scout_beingshotinvincible07": "Didn't hurt.",
+        "scout_beingshotinvincible08": "Woo!",
+        "scout_beingshotinvincible09": "Heheh.",
+        "scout_beingshotinvincible10": "Eyy!",
+        "scout_beingshotinvincible11": "Yeah!",
+        "scout_beingshotinvincible12": "Oop!",
+        "scout_beingshotinvincible13": "Wah!",
+        "scout_beingshotinvincible14": "Wa-ha!",
+        "scout_beingshotinvincible15": "Ho-wah!",
+        "scout_beingshotinvincible16": "Wah!",
+        "scout_beingshotinvincible17": "Ha!",
+        "scout_beingshotinvincible18": "Nope!",
+        "scout_beingshotinvincible19": "Sor-ry!",
+        "scout_beingshotinvincible20": "Nope.",
+        "scout_beingshotinvincible21": "De-nied!",
+        "scout_beingshotinvincible22": "Woosh!",
+        "scout_beingshotinvincible23": "Ping!",
+        "scout_beingshotinvincible24": "What?!",
+        "scout_beingshotinvincible25": "Ahah!",
+        "scout_beingshotinvincible26": "Poing!",
+        "scout_beingshotinvincible27": "Eheheh.",
+        "scout_beingshotinvincible28": "*Whooshing sound*",
+        "scout_beingshotinvincible29": "Aheheh.",
+        "scout_beingshotinvincible30": "Weak!",
+        "scout_beingshotinvincible31": "Dummy!",
+        "scout_beingshotinvincible32": "Moron!",
+        "scout_beingshotinvincible33": "Dumbass!",
+        "scout_beingshotinvincible34": "Nice aim!",
+        "scout_beingshotinvincible35": "Punk!",
+        "scout_beingshotinvincible36": "Wuss!",
+        "scout_invinciblechgunderfire01": "Yoink!",
+        "scout_invinciblechgunderfire02": "Too slow!",
+        "scout_invinciblechgunderfire03": "Yoink!",
+        "scout_invinciblechgunderfire04": "So close!"
+      },
+      "invinciblenotready": {
+        "index": "Bonk! Atomic Punch - Running out",
+        "scout_invinciblenotready01": "C'mon, c'mon!",
+        "scout_invinciblenotready02": "Work, dammit!",
+        "scout_invinciblenotready03": "Ah, crap!",
+        "scout_invinciblenotready05": "What?!",
+        "scout_invinciblenotready06": "Aw, crap.",
+        "scout_invinciblenotready07": "Ah, crap!"
+      },
+      "stunballhittingit": {
+        "index": "Sandman - Swinging",
+        "scout_stunballhittingit01": "Batter up!",
+        "scout_stunballhittingit02": "Catch dis.",
+        "scout_stunballhittingit04": "Batta swing!",
+        "scout_stunballhittingit05": "Major League!"
+      },
+      "stunballhit": {
+        "index": "Sandman - Stunning enemy",
+        "scout_stunballhit01": "Oh, I'm sorry, I didn't mean to hit ya... No, wait, yeah, I did.",
+        "scout_stunballhit02": "Oh, dat's a skull fracture for sure!",
+        "scout_stunballhit03": "Ohh, I got alla dat one.",
+        "scout_stunballhit04": "Dere's a dingah for ya!",
+        "scout_stunballhit05": "Downtown!",
+        "scout_stunballhit06": "Home-frickin'-run!",
+        "scout_stunballhit07": "Gotta nice piece a dat!",
+        "scout_stunballhit08": "Nice catch, knucklehead!",
+        "scout_stunballhit09": "Good 'ands, buddy!",
+        "scout_stunballhit10": "Good catch, dummy!",
+        "scout_stunballhit11": "Way to duck!",
+        "scout_stunballhit12": "Nice hustle!",
+        "scout_stunballhit13": "Yo, heads up!",
+        "scout_stunballhit14": "Ding-dong!",
+        "scout_stunballhit15": "Think fast, chucklenuts!",
+        "scout_stunballhit16": "Real smooth, dummy!"
+      },
+      "stunballpickup": {
+        "index": "Sandman - Picking up ball",
+        "scout_stunballpickup01": "Got da ball back!",
+        "scout_stunballpickup02": "Play ball!",
+        "scout_stunballpickup03": "Found my ball!",
+        "scout_stunballpickup04": "Oh dere's my ball!",
+        "scout_stunballpickup05": "I love my ball!"
+      }
+    },
+    "payload": {
+      "index": "Payload",
+      "offense/goingback": {
+        "index": "Offense - Cart goes back",
+        "scout_cartgoingbackoffense01": "Dat ain't da right way, guys!",
+        "scout_cartgoingbackoffense02": "What da hell's goin' on?",
+        "scout_cartgoingbackoffense03": "Aw, cripes, da cart!",
+        "scout_cartgoingbackoffense04": "Is someone gonna push da freakin' cart?",
+        "scout_cartgoingbackoffense05": "Da cart's movin' backwards!",
+        "scout_cartgoingbackoffense06": "Aw, jeez, da cart!",
+        "scout_cartgoingbackoffense07": "No, no, no! The cart!",
+        "scout_cartgoingbackoffense08": "Anyone else pushing dis thing?"
+      },
+      "offense/goingforward": {
+        "index": "Offense - Cart goes forward",
+        "scout_cartmovingforwardoffense01": "Push!",
+        "scout_cartmovingforwardoffense02": "Mush, you lazy bums!",
+        "scout_cartmovingforwardoffense03": "Keep pushin' it!",
+        "scout_cartmovingforwardoffense04": "Yeah, yeah, yeah!",
+        "scout_cartmovingforwardoffense05": "Keep it movin', guys!",
+        "scout_cartmovingforwardoffense06": "Go, go, go!"
+      },
+      "offense/stayclose": {
+        "index": "Offense - Stay close to cart",
+        "scout_cartstaycloseoffense01": "Stay by the cart, fellas!",
+        "scout_cartstaycloseoffense02": "Get over here!",
+        "scout_cartstaycloseoffense03": "Stay close, guys!",
+        "scout_cartstaycloseoffense04": "Let's all push this thing!",
+        "scout_cartstaycloseoffense05": "We pushin' this thing or what?",
+        "scout_cartstaycloseoffense06": "Li'l help pushin' the cart?"
+      },
+      "offense/stopped": {
+        "index": "Offense - Cart has stopped",
+        "scout_cartstoppedoffense01": "The freakin' cart stopped!",
+        "scout_cartstoppedoffense02": "What da hell, who stopped pushin' the cart?!",
+        "scout_cartstoppedoffense03": "Push it, push it, push it!"
+      },
+      "defense/goingback": {
+        "index": "Defense - Cart going back",
+        "scout_cartgoingbackdefense01": "Return to freakin' sender!",
+        "scout_cartgoingbackdefense02": "All right, all right!",
+        "scout_cartgoingbackdefense03": "Hey now we're doin' it, now we're doin' it!",
+        "scout_cartgoingbackdefense04": "Yeah, yeah, yeah!",
+        "scout_cartgoingbackdefense05": "What, ya guys give up?",
+        "scout_cartgoingbackdefense06": "Yo, it should be goin' dat way!"
+      },
+      "defense/goingforward": {
+        "index": "Defense - Cart going forward",
+        "scout_cartmovingforwarddefense01": "We gotta stop dat thing!",
+        "scout_cartmovingforwarddefense02": "Aw, jeez guys, we gotta stop it!",
+        "scout_cartmovingforwarddefense03": "What the hell is everyone doin'?!",
+        "scout_cartmovingforwarddefense04": "Push da freakin' cart!",
+        "scout_cartmovingforwarddefense05": "Keep dat cart movin'!",
+        "scout_cartmovingforwarddefense06": "C'mon, move da cart!"
+      },
+      "defense/stopit": {
+        "index": "Defense - Stop the bomb",
+        "scout_cartstopitdefense01": "Ey, we gotta stop it!",
+        "scout_cartstopitdefense02": "Gotta stop da cart!",
+        "scout_cartstopitdefense03": "Let's stop dat freakin' thing!"
+      }
+    }
+  },
+  "soldier": {
+    "index": "Soldier",
+    "domination": {
+      "index": "Domination",
+      "scout": {
+        "index": "Scout",
         "soldier_dominationscout01": "Dominated, short pants!",
         "soldier_dominationscout02": "How's that domination feel, city boy?",
         "soldier_dominationscout03": "You kids today don't know how to dominate.",
@@ -15,6 +758,7 @@
         "soldier_dominationscout11": "You were in a big fat hurry to die, son."
       },
       "soldier": {
+        "index": "Soldier",
         "soldier_dominationsoldier01": "Dominated, hippie, get a job!",
         "soldier_dominationsoldier02": "You better hope there's hacky-sack in Hell, hippie!",
         "soldier_dominationsoldier03": "You are now a conscientious objector to being dead, hippie!",
@@ -23,6 +767,7 @@
         "soldier_dominationsoldier06": "You're a disgrace to the uniform."
       },
       "pyro": {
+        "index": "Pyro",
         "soldier_dominationpyro01": "I just tore you a new chimney, Smokey Joe!",
         "soldier_dominationpyro02": "You cannot burn me, I'm already on fire!",
         "soldier_dominationpyro03": "You cannot burn me! I'm already ablaze with passion, for war!",
@@ -34,6 +779,7 @@
         "soldier_dominationpyro09": "Get a haircut, hippie! [whispered] Just in case."
       },
       "demoman": {
+        "index": "Demoman",
         "soldier_dominationdemoman01": "Dominated, you one-eyed cross-dresser.",
         "soldier_dominationdemoman02": "Consider yourself dominated, you Scotch son of a bitch!",
         "soldier_dominationdemoman03": "Dominated, you skirt-twirling drunk.",
@@ -42,6 +788,7 @@
         "soldier_dominationdemoman06": "You're like the Cyclops of Greek myth; except you are Scottish, and I hate you!"
       },
       "heavy": {
+        "index": "Heavy",
         "soldier_dominationheavy01": "You just got dominated, Sputnik.",
         "soldier_dominationheavy02": "Stars and Stripes beats Hammer and Sickle. Look it up!",
         "soldier_dominationheavy03": "You just got dominated, Comrade.",
@@ -51,6 +798,7 @@
         "soldier_dominationheavy07": "Checkmate, Stalingrad!"
       },
       "engineer": {
+        "index": "Engineer",
         "soldier_dominationengineer01": "Dominated, grease monkey.",
         "soldier_dominationengineer02": "You just got dominated, toymaker.",
         "soldier_dominationengineer03": "Stop hiding behind your little toys and fight like a man!",
@@ -59,6 +807,7 @@
         "soldier_dominationengineer06": "Go back to Calgary, ya cow-herdin' Canadian!"
       },
       "medic": {
+        "index": "Medic",
         "soldier_dominationmedic01": "You just got dominated, Oktoberfest!",
         "soldier_dominationmedic02": "You just got dominated, Fritz!",
         "soldier_dominationmedic03": "America wins again!",
@@ -68,6 +817,7 @@
         "soldier_dominationmedic07": "Gotcha, Herr Doktor!"
       },
       "sniper": {
+        "index": "Sniper",
         "soldier_dominationsniper01": "This is not a camping trip, Sheila; this is war and I love it!",
         "soldier_dominationsniper02": "You will not turn my battlefield into a campground.",
         "soldier_dominationsniper03": "Now hear this, camper, you are not wanted on my beloved battlefield!",
@@ -84,6 +834,7 @@
         "soldier_dominationsniper14": "You just got dominated, Bulbo Buttons!"
       },
       "spy": {
+        "index": "Spy",
         "soldier_dominationspy01": "Gotcha, crouton.",
         "soldier_dominationspy02": "You just got your Frenchie ass dominated.",
         "soldier_dominationspy03": "Ohh-honh-honh-honh-You're dominated.",
@@ -92,14 +843,368 @@
         "soldier_dominationspy06": "Your white flag does not stop American bullets.",
         "soldier_dominationspy07": "Words cannot express how much I hate France right now!",
         "soldier_dominationspy08": "Bon voyage, crouton!"
+      },
+      "revenge": {
+        "index": "Revenge",
+        "soldier_battlecry06": "Hehehyaaa!",
+        "soldier_cheers01": "Today is a good day.",
+        "soldier_goodjob02": "Outstanding!"
+      }
+    },
+    "exclamation": {
+      "index": "Exclamation",
+      "battlecry": {
+        "index": "Battle Cry",
+        "soldier_battlecry01": "Charge!",
+        "soldier_battlecry02": "Forward!",
+        "soldier_battlecry03": "Give 'em hell boys!",
+        "soldier_battlecry04": "Last one alive, lock the door!",
+        "soldier_battlecry05": "Attaaack!",
+        "soldier_battlecry06": "Heh heh heeeh!"
+      },
+      "incoming": {
+        "index": "Incoming!",
+        "soldier_incoming01": "Incoming!"
+      },
+      "sentryahead": {
+        "index": "Sentry Ahead!",
+        "soldier_sentryahead01": "Sentry forward!",
+        "soldier_sentryahead02": "Alert! Sentry ahead!",
+        "soldier_sentryahead03": "Sentry ahead!"
+      },
+      "spy": {
+        "index": "Spy!",
+        "soldier_cloakedspy01": "Boys, we have a traitor!",
+        "soldier_cloakedspy02": "Spy in our midst, men!",
+        "soldier_cloakedspy03": "Spy!",
+        "soldier_cloakedspyidentify01": "That Scout is a Spy!",
+        "soldier_cloakedspyidentify02": "That Soldier is a Spy!",
+        "soldier_cloakedspyidentify04": "That Pyro is a Spy!",
+        "soldier_cloakedspyidentify05": "That Demoman is a Spy!",
+        "soldier_cloakedspyidentify03": "That Heavy is a Spy!",
+        "soldier_cloakedspyidentify07": "That Engineer is a Spy!",
+        "soldier_cloakedspyidentify06": "That Medic is a Spy!",
+        "soldier_cloakedspyidentify08": "That Sniper is a Spy!",
+        "soldier_cloakedspyidentify09": "That Spy is not one of ours!"
+      }
+    },
+    "laugh": {
+      "index": "Laugh",
+      "laughevil": {
+        "index": "Evil laugh",
+        "soldier_laughevil01": "(Evil laughter 1)",
+        "soldier_laughevil02": "(Evil laughter 2)",
+        "soldier_laughevil03": "(Evil laughter 3)"
+      },
+      "laughhappy": {
+        "index": "Happy laugh",
+        "soldier_laughhappy01": "(Happy laughter 1)",
+        "soldier_laughhappy02": "(Happy laughter 2)",
+        "soldier_laughhappy03": "(Happy laughter 3)"
+      },
+      "laughlong": {
+        "index": "Long laugh",
+        "soldier_laughlong01": "(Long laughter 1)",
+        "soldier_laughlong02": "(Long laughter 2)",
+        "soldier_laughlong03": "(Long, wheezing laughter)"
+      },
+      "laughshort": {
+        "index": "Short laugh",
+        "soldier_laughshort01": "(Short laughter 1)",
+        "soldier_laughshort02": "(Short laughter 2)",
+        "soldier_laughshort03": "(Short laughter 3)",
+        "soldier_laughshort04": "(Short laughter 3)"
+      }
+    },
+    "negative": {
+      "index": "Negative",
+      "no": {
+        "index": "No",
+        "soldier_no01": "No, Sir!",
+        "soldier_no02": "Negatory!",
+        "soldier_no03": "No!"
+      },
+      "jeers": {
+        "index": "Jeers",
+        "soldier_jeers01": "Boooooo...",
+        "soldier_jeers02": "Each and every one of you has failed.",
+        "soldier_jeers03": "Are you all trying for a Section 8?",
+        "soldier_jeers04": "Which of you numbnuts let us down?",
+        "soldier_jeers05": "You have dishonored this entire unit.",
+        "soldier_jeers06": "You are the sorriest excuses for soldiers I have ever seen!",
+        "soldier_jeers07": "Pain is weakness leaving the body.",
+        "soldier_jeers08": "Down and give me 20!",
+        "soldier_jeers09": "Get with the program!",
+        "soldier_jeers10": "If I have to crack some skulls, I will.",
+        "soldier_jeers11": "That was an amazing killing spree... by the other team!",
+        "soldier_jeers12": "You are all dishonorably discharged."
+      },
+      "negativevocalization": {
+        "index": "Negative",
+        "soldier_negativevocalization01": "Hell, men.",
+        "soldier_negativevocalization02": "No...!",
+        "soldier_negativevocalization03": "Dammit boys.",
+        "soldier_negativevocalization04": "Dauggh no!",
+        "soldier_negativevocalization05": "Dammit!",
+        "soldier_negativevocalization06": "(groans)"
+      },
+      "autodejectedtie": {
+        "index": "Stalemate",
+        "soldier_autodejectedtie01": "We failed, men.",
+        "soldier_autodejectedtie02": "I will not tolerate failure on my team.",
+        "soldier_autodejectedtie03": "(Grumble)"
+      }
+    },
+    "objective": {
+      "index": "Objective",
+      "autocappedcontrolpoint": {
+        "index": "Captured control point",
+        "soldier_autocappedcontrolpoint01": "Now that is what I wanna see!",
+        "soldier_autocappedcontrolpoint02": "This point is mine! Do you understand that?",
+        "soldier_autocappedcontrolpoint03": "We have commandeered my point!"
+      },
+      "autocappedintelligence": {
+        "index": "Captured intelligence",
+        "soldier_autocappedintelligence01": "This is my Intelligence.",
+        "soldier_autocappedintelligence02": "And that is how you do it, men!",
+        "soldier_autocappedintelligence03": "I have rescued my Intelligence."
+      },
+      "helpmecapture": {
+        "index": "Help! - Standing on enemy point",
+        "soldier_helpmecapture01": "You will help me capture my point!",
+        "soldier_helpmecapture02": "Rally round, help me cap this point!",
+        "soldier_helpmecapture03": "Need help capping this point!",
+        "soldier_standonthepoint01": "Stand... on... the... point, numbnuts!",
+        "soldier_standonthepoint02": "Stand... on... the... point, maggot!",
+        "soldier_standonthepoint03": "Stand... on... the... point, maggots!"
+      },
+      "helpmedefend": {
+        "index": "Help! - Standing on friendly point",
+        "soldier_helpmedefend01": "We need to defend this point!",
+        "soldier_helpmedefend02": "Defend this point!",
+        "soldier_helpmedefend03": "You will help me defend my point!",
+        "soldier_helpmedefend04": "This is my point and you will help me defend my point!"
+      }
+    },
+    "positive": {
+      "index": "Positive",
+      "yes": {
+        "index": "Yes",
+        "soldier_yes01": "Yeah...",
+        "soldier_yes02": "Yes!",
+        "soldier_yes03": "Affirmative!",
+        "soldier_yes04": "Sir, yes, Sir!"
+      },
+      "cheers": {
+        "index": "Cheers",
+        "soldier_cheers01": "Today is a good day!",
+        "soldier_cheers02": "You've done me proud, boys!",
+        "soldier_cheers03": "Everyone of you deserves a medal!",
+        "soldier_cheers04": "The worm has turned, gentlemen!",
+        "soldier_cheers05": "Booyah!",
+        "soldier_cheers06": "Hooah!"
+      },
+      "positivevocalization": {
+        "index": "Positive",
+        "soldier_positivevocalization01": "Hoo.. ah!",
+        "soldier_positivevocalization02": "Oh yeah.",
+        "soldier_positivevocalization03": "Okay!",
+        "soldier_positivevocalization04": "Roger that!",
+        "soldier_positivevocalization05": "Yeah."
+      },
+      "goodjob": {
+        "index": "Good Job!",
+        "soldier_goodjob01": "Good work.",
+        "soldier_goodjob02": "Outstanding!",
+        "soldier_goodjob03": "Nice work."
+      },
+      "niceshot": {
+        "index": "Nice Shot!",
+        "soldier_niceshot01": "Nice shot!",
+        "soldier_niceshot02": "Fine shooting!",
+        "soldier_niceshot03": "Outstanding shot!"
+      },
+      "thanks": {
+        "index": "Thanks!",
+        "soldier_thanks01": "Thanks!",
+        "soldier_thanks02": "Thanks!",
+        "Soldier_specialcompleted-assistedkill01": "Thanks, soldier!"
+      },
+      "thanksfortheheal": {
+        "index": "Healed by Medic",
+        "soldier_thanksfortheheal01": "You deserve a medal, Doc.",
+        "soldier_thanksfortheheal02": "Thanks for the aid.",
+        "soldier_thanksfortheheal03": "Thanks, Doc."
+      },
+      "thanksfortheteleporter": {
+        "index": "Teleported",
+        "soldier_thanksfortheteleporter01": "Thanks.",
+        "soldier_thanksfortheteleporter02": "Thanks for the Teleporter.",
+        "soldier_thanksfortheteleporter03": "Thanks, Engie."
+      }
+    },
+    "requests": {
+      "index": "Requests",
+      "go": {
+        "index": "Go!",
+        "soldier_go01": "Go go go! Charge!",
+        "soldier_go02": "Move out!",
+        "soldier_go03": "Let's go!"
+      },
+      "moveup": {
+        "index": "Move up!",
+        "soldier_moveup01": "Move up!",
+        "soldier_moveup02": "Gear forward!",
+        "soldier_moveup03": "Move up, move up, move up!"
+      },
+      "headleft": {
+        "index": "Go Left!",
+        "soldier_headleft01": "Flaaaank left!",
+        "soldier_headleft02": "Left face!",
+        "soldier_headleft03": "Leeeeft house!"
+      },
+      "headright": {
+        "index": "Go Right!",
+        "soldier_headright01": "Right face!",
+        "soldier_headright02": "Flaaank right!",
+        "soldier_headright03": "Riiiight house!"
+      },
+      "helpme": {
+        "index": "Help!",
+        "soldier_helpme01": "I need some help!",
+        "soldier_helpme02": "Need some help here!",
+        "soldier_helpme03": "Heeeeelp!"
+      },
+      "needbuilding": {
+        "index": "Build here!",
+        "soldier_needdispenser01": "Deploy a Dispenser here!",
+        "soldier_needsentry01": "Deploy a Sentry here!",
+        "soldier_needteleporter01": "Deploy a Teleporter here!"
+      },
+      "medic": {
+        "index": "Medic!",
+        "soldier_medic01": "Medic! (1)",
+        "soldier_medic02": "Medic! (2)",
+        "soldier_medic03": "Medic! (3)"
+      },
+      "medicfollow": {
+        "index": "Medic! - Follow Me!",
+        "soldier_pickaxetaunt01": "C'mere, sweetheart...",
+        "soldier_pickaxetaunt02": "C'mere, sister.",
+        "soldier_pickaxetaunt03": "C'mere, Sally.",
+        "soldier_pickaxetaunt04": "C'mere, cupcake.",
+        "soldier_pickaxetaunt05": "C'mere, pumpkin."
+      },
+      "activatecharge": {
+        "index": "Medic! - Activate Übercharge!",
+        "soldier_activatecharge01": "Hit it, Doc!",
+        "soldier_activatecharge02": "Let's go, Doc!",
+        "soldier_activatecharge03": "Ready for that charge, Doc!"
+      }
+    },
+    "screams": {
+      "index": "Screams",
+      "autoonfire": {
+        "index": "On fire!",
+        "soldier_autoonfire01": "Fire, fire, fire!",
+        "soldier_autoonfire02": "I am on fire!",
+        "soldier_autoonfire03": "The burning, the burning!"
+      },
+      "paincrticialdeath": {
+        "index": "Critical pain",
+        "soldier_paincrticialdeath01": "(Dying scream 1)",
+        "soldier_paincrticialdeath02": "(Dying scream 2)",
+        "soldier_paincrticialdeath03": "(Dying scream 3)",
+        "soldier_paincrticialdeath04": "(Dying scream 4)"
+      },
+      "painsevere": {
+        "index": "Severe pain",
+        "soldier_painsevere01": "Oooooohhhh!",
+        "soldier_painsevere02": "Owww!",
+        "soldier_painsevere03": "Augghhh!",
+        "soldier_painsevere04": "Dah!",
+        "soldier_painsevere05": "Yaaah!",
+        "soldier_painsevere06": "Daawww!"
+      },
+      "painsharp": {
+        "index": "Sharp pain",
+        "soldier_painsharp01": "Oof!",
+        "soldier_painsharp02": "Urg!",
+        "soldier_painsharp03": "Unf!",
+        "soldier_painsharp04": "Onf!",
+        "soldier_painsharp05": "Ogh!",
+        "soldier_painsharp06": "Uff!",
+        "soldier_painsharp07": "Agh!",
+        "soldier_painsharp08": "Oughh!"
+      }
+    },
+    "special": {
+      "index": "Special",
+      "directhittaunt": {
+        "index": "Kill - Melee",
+        "soldier_specialcompleted05": "Yaaaaagh!",
+        "soldier_directhittaunt01": "Aaaagh!",
+        "soldier_directhittaunt02": "Yaaaaarrrrrgggh!",
+        "soldier_directhittaunt03": "Raagh!",
+        "soldier_directhittaunt04": "Aaaah!!"
+      },
+      "hatoverhearttaunt": {
+        "index": "Kill - Demoman",
+        "soldier_hatoverhearttaunt01": "You will not be missed.",
+        "soldier_hatoverhearttaunt02": "I never liked you.",
+        "soldier_hatoverhearttaunt03": "You were loud and ugly, and now you're DEAD! Amen.",
+        "soldier_hatoverhearttaunt04": "You're dead, that's good, amen.",
+        "soldier_hatoverhearttaunt05": "Godspeed, you magnificent bastard.",
+        "soldier_hatoverhearttaunt06": "You were good son, real good; maybe even the best."
+      },
+      "kaboomalts": {
+        "index": "Kill - Being healed",
+        "soldier_kaboomalts01": "Blammo!",
+        "soldier_kaboomalts02": "Boom!",
+        "soldier_kaboomalts03": "Pa-POW!"
+      },
+      "specialcompleted": {
+        "index": "Special completed",
+        "soldier_specialcompleted01": "Cuh-rit!",
+        "soldier_specialcompleted02": "Crocket!",
+        "soldier_specialcompleted03": "Ka-boom!",
+        "soldier_specialcompleted04": "Screamin' Eagles!",
+        "soldier_specialcompleted-assistedkill01": "Thanks, soldier!"
+      },
+      "taunts": {
+        "index": "Special taunts",
+        "soldier_taunts01": "Maggots!",
+        "soldier_taunts02": "Time to inform your next of kin!",
+        "soldier_taunts03": "If you know what's good for ya, you will run!",
+        "soldier_taunts04": "You are scum! You are nothin' but a buncha' cowards!",
+        "soldier_taunts05": "I am going to enjoy killing each and every one of you sorry sacks of scum!",
+        "soldier_taunts06": "You sissified maggot scum have just signed your death warrants!",
+        "soldier_taunts07": "If God had wanted you to live, He would not have created me!",
+        "soldier_taunts08": "I am going to claw my way down your throat and tear out your very soul!",
+        "soldier_taunts09": "Take your lumps like a man, Private Twinkletoes.",
+        "soldier_taunts10": "You are all weak! You are all bleeders!",
+        "soldier_taunts11": "Each and every one of you will be sent home to your momma' in a box!",
+        "soldier_taunts12": "We have you surrounded, at least from this side!",
+        "soldier_taunts13": "I joined this team just to kill maggots like you.",
+        "soldier_taunts14": "Do not look at me, I did not ask you a question!",
+        "soldier_taunts15": "Surrender now, maggots, and you will not be harmed!",
+        "soldier_taunts16": "The last word out of your sorry mouth will be Sir, and it will be loud!",
+        "soldier_taunts17": "This is my world. You are not welcome in my world.",
+        "soldier_taunts18": "You are a spineless worm! You are a mistake of nature! You are walking vomit!",
+        "soldier_taunts19": "You are a maggot hatched from a mutant maggot egg!",
+        "soldier_taunts20": "I am going to strangle you with your own frilly training bra!",
+        "soldier_taunts21": "You are all maggots, you scum sucking fruit baskets!"
       }
     },
     "payload": {
+      "index": "Payload",
       "offense/goingback": {
+        "index": "Offense - Cart goes back",
         "soldier_cartgoingbackoffense01": "Do not let that cart roll back!",
         "soldier_cartgoingbackoffense02": "The cart needs to go forward!"
       },
       "offense/goingforward": {
+        "index": "Offense - Cart goes forward",
         "soldier_cartgoingforwardoffense01": "Move, move, move!",
         "soldier_cartgoingforwardoffense02": "Push!",
         "soldier_cartgoingforwardoffense03": "I do not see enough pushing!",
@@ -117,6 +1222,7 @@
         "soldier_cartgoingforwardoffense15": "Push like you mean it!"
       },
       "offense/stayclose": {
+        "index": "Offense - Stay close to cart",
         "soldier_cartstaycloseoffense01": "Get to the cart!",
         "soldier_cartstaycloseoffense02": "Get to the cart, ladies!",
         "soldier_cartstaycloseoffense03": "Everyone, get to the cart!",
@@ -125,20 +1231,24 @@
         "soldier_cartstaycloseoffense06": "Get to the cart! Hup, hup, hup!"
       },
       "offense/stopped": {
+        "index": "Offense - Cart has stopped",
         "soldier_cartstoppedoffense01": "Why is that cart stopped, maggots?!",
         "soldier_cartstoppedoffense02": "I do not see a cart moving, ladies!",
         "soldier_cartstoppedoffense03": "Why is that cart not moving?!"
       },
       "defense/goingback": {
+        "index": "Defense - Cart going back",
         "soldier_cartgoingbackdefense01": "The cart's falling back!",
         "soldier_cartgoingbackdefense02": "That's it, men, move that cart back!"
       },
       "defense/goingforward": {
+        "index": "Defense - Cart going forward",
         "soldier_cartgoingforwarddefense01": "Do not let that cart go forward!",
         "soldier_cartgoingforwarddefense02": "Hold the line, men! Stop that cart!",
         "soldier_cartgoingforwarddefense03": "Stop that cart!"
       },
       "defense/stopit": {
+        "index": "Defense - Stop the bomb",
         "soldier_cartstopitdefense01": "Stand next to the cart, damn you!",
         "soldier_cartstopitdefense02": "Get to the cart!",
         "soldier_cartstopitdefense03": "You will stand next to that cart or I will stand you next to that cart!"
