@@ -1,4 +1,108 @@
 // app global css in SCSS form
+
+body {
+  color: $main-text;
+
+  // Drawer on the left side for page selection
+  & .q-drawer.q-drawer--left {
+    position: fixed;
+  }
+}
+
+body.desktop {
+  & .q-page {
+    & .class-tabs {
+      & .q-tabs__content {
+        justify-content: flex-start;
+      }
+    }
+
+    &.page-config {
+      & .config-item {
+        width: 20rem;
+      }
+    }
+  }
+}
+
 .q-page {
-  background: $background1;
+  background: $background;
+
+  &.page-config {
+    display: flex;
+    justify-content: flex-start;
+    background: $secondary;
+    padding: 1rem;
+
+    & .config-item {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      & .config-item-text {
+        display: flex;
+        gap: 0.5rem;
+
+        & .q-field {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  // Tabs at the top of the screen, used to change category
+  .class-tabs {
+    background: $primary;
+    color: white;
+    width: 100vw;
+    height: 3rem;
+    position: sticky;
+    top: 50px;
+    z-index: 5;
+    border-bottom: 1px solid $main-border;
+
+    & .active-tab {
+      background: $secondary;
+    }
+  }
+
+  // Container for the voice lines
+  .voiceline-tab {
+    .voiceline-button-container {
+      background: $primary;
+      width: 100%;
+      align-content: flex-start;
+
+      & .voiceline-container-separator {
+        background: $background;
+        color: $main-text;
+        padding: 0.25rem 1rem;
+        font-size: 0.75rem;
+      }
+
+      & .voiceline-button {
+        width: 100%;
+        border-bottom: 1px solid $main-border;
+        max-width: 100vw;
+        min-height: 2.5rem;
+        padding-left: 1.5rem;
+
+        & .q-btn__content .block {
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+      }
+
+      &:last-child:after {
+        content: "";
+        display: flex;
+        background-color: $background;
+        width: 100%;
+        height: 1rem;
+        border-bottom: 1px solid $main-border;
+        border-bottom-width: 0;
+      }
+    }
+  }
 }

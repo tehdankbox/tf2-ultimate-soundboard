@@ -53,4 +53,11 @@ export const pageOptions = {
     icon: 'favorite',
     pageName: 'spy'
   },
+  config: {
+    title: 'Config',
+    pageTitle: 'TF2 Soundboard - Config',
+    icon: 'settings',
+    pageName: 'config',
+    link: '/config'
+  },
 };

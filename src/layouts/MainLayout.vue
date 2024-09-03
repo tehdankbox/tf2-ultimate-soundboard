@@ -11,20 +11,24 @@
       </q-toolbar>
     </q-header>
 
-    <q-drawer show-if-above v-model="leftDrawerOpen" side="left" bordered>
+    <q-drawer
+      show-if-above
+      v-model="leftDrawerOpen"
+      side="left"
+      class="text-primary-text bg-background"
+    >
       <q-list>
         <PageMenu
           v-for="link in getDrawerOptions"
           :key="link.title"
           v-bind="link"
-          @select="changeActiveScreen"
         />
       </q-list>
     </q-drawer>
 
     <q-page-container>
       <router-view
-        :active-screen="activeScreen"
+        @changeScreen="changeActiveScreen"
       />
     </q-page-container>
 
@@ -45,7 +49,7 @@ export default defineComponent({
 
   data() {
     return {
-      activeScreen: 'soldier',
+      activeScreen: 'scout',
     };
   },
 
@@ -66,7 +70,10 @@ export default defineComponent({
   methods: {
     changeActiveScreen(screen) {
       this.activeScreen = screen;
-      this.leftDrawerOpen = false;
+
+      if (this.$q.platform.is.mobile) {
+        this.leftDrawerOpen = false;
+      }
     },
   },
 

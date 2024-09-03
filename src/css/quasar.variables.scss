@@ -12,14 +12,24 @@
 // to match your app's branding.
 // Tip: Use the "Theme Builder" on Quasar's documentation website.
 
-$primary   : #913A1F;
-$secondary : #80301F;
-$accent    : #9C27B0;
+$primary          : #913A1F;
+$secondary        : #80301F;
+$background       : #4C261E;
+$main-border      : #682214;
+$accent           : #9C27B0;
 
-$background1      : #4C261E;
-$text-background1 : #E5E5E5;
+$main-text        : #E5E5E5;
+$secondary-text   : #333333;
 
-$border1 : #682214;
+// Color classes
+.bg-primary         { background: $primary;    }
+.bg-secondary       { background: $secondary;  }
+.bg-background      { background: $background; }
+
+.text-primary        { color: $primary;        }
+.text-secondary      { color: $secondary;      }
+.text-main-text      { color: $main-text;      }
+.text-secondary-text { color: $secondary-text; }
 
 $dark      : #1D1D1D;
 $dark-page : #121212;

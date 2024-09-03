@@ -1,7 +1,7 @@
 <template>
   <q-item
     clickable
-    @click="$emit('select', pageName)"
+    @click="clickHandler"
   >
     <q-item-section
       v-if="icon"
@@ -35,6 +35,21 @@ export default defineComponent({
     icon: {
       type: String,
       default: ''
+    },
+
+    link: {
+      type: String,
+      default: undefined,
+    },
+  },
+
+  methods: {
+    clickHandler() {
+      if (!this.link) {
+        this.$router.push({ path: `/index/${this.pageName}` });
+      } else {
+        this.$router.push({ path: this.link });
+      }
     }
   }
 })
