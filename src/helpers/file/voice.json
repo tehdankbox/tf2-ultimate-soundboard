@@ -75,6 +75,560 @@
       }
     }
   },
+  "engineer": {
+    "index": "Engineer",
+    "domination": {
+      "index": "Domination",
+      "dominated": {
+        "index": "Dominated (Any)",
+        "engineer_taunts05": "You're all about to have a real bad day!",
+        "engineer_taunts08": "Start prayin', boy!",
+        "engineer_wranglekills04": "Gotcha!"
+      },
+      "scout": {
+        "index": "Scout",
+        "engineer_dominationscout01": "Y'all gotta run a lot faster than that.",
+        "engineer_dominationscout02": "Ya ain't too fast for me and my machines now, are ya? Heh. Are ya?",
+        "engineer_dominationscout03": "Boy, this here is just gonna keep happenin' and happenin'.",
+        "engineer_dominationscout04": "Dominated, string-bean.",
+        "engineer_dominationscout05": "Y'all just got dominated, city boy.",
+        "engineer_dominationscout06": "What in Sam Hill were you thinkin', string-bean?",
+        "engineer_dominationscout07": "Shoot, son, y'all slow as molasses.",
+        "engineer_dominationscout08": "Dominated, little feller.",
+        "engineer_dominationscout09": "Just a dead little jackrabbit.",
+        "engineer_dominationscout10": "Quick as a hiccup, ain'tcha? Huh. [whispering] Not quick enough.",
+        "engineer_dominationscout11": "Not fast enough; not by a damn sight.",
+        "engineer_dominationscout12": "Gotcha, stretch!"
+      },
+      "soldier": {
+        "index": "Soldier",
+        "engineer_dominationsoldier01": "Y'all take that, rocket-boy.",
+        "engineer_dominationsoldier02": "That there is just a sad display, boy.",
+        "engineer_dominationsoldier03": "Don't test my mettle, son!",
+        "engineer_dominationsoldier04": "Dominated, ya damn Yankee.",
+        "engineer_dominationsoldier05": "Y'all just got drafted into my war!",
+        "engineer_dominationsoldier06": "That's what it feels like when eagles cry, soldier-boy.",
+        "engineer_dominationsoldier07": "Next time, lift your lid and you might see it comin'!",
+        "engineer_dominationsoldier08": "This all's what happens when you fight a man."
+      },
+      "pyro": {
+        "index": "Pyro",
+        "engineer_dominationpyro01": "Speak up next time, boy!",
+        "engineer_dominationpyro02": "Sorry, ma'am.",
+        "engineer_dominationpyro03": "Dominated, smokey.",
+        "engineer_dominationpyro04": "Gotcha, mumbles.",
+        "engineer_dominationpyro05": "Sorry to put out your campfire, boy.",
+        "engineer_dominationpyro06": "You look a mite tongue-tied, son.",
+        "engineer_dominationpyro07": "You shouldn't have played with fire, boy.",
+        "engineer_dominationpyro08": "Didn't yer momma teach ya not to play with matches?",
+        "engineer_dominationpyro09": "Y'all might be flame retardant, but ya sure ain't bulletproof."
+      },
+      "demoman": {
+        "index": "Demoman",
+        "engineer_dominationdemoman01": "I wish y'all could see how bad I'm kickin' your tail.",
+        "engineer_dominationdemoman02": "Drunk on the battlefield ain't no way to be, son.",
+        "engineer_dominationdemoman03": "Dominated, eyepatch!",
+        "engineer_dominationdemoman04": "That catch yer eye, son?",
+        "engineer_dominationdemoman05": "The hand is quicker than the eye!",
+        "engineer_dominationdemoman06": "Gotcha, eyehole."
+      },
+      "heavy": {
+        "index": "Heavy",
+        "engineer_dominationheavy01": "Never mind the bullets. How much all these coffins costin' ya?",
+        "engineer_dominationheavy02": "I've seen better sides of beef been run over by a combine.",
+        "engineer_dominationheavy03": "Y'all come back now!",
+        "engineer_dominationheavy04": "Nice try, slim.",
+        "engineer_dominationheavy05": "Gotcha, chuckwagon!",
+        "engineer_dominationheavy06": "Gotcha, pork drippings.",
+        "engineer_dominationheavy07": "Dominated, corn cakes.",
+        "engineer_dominationheavy08": "Y'all just got branded.",
+        "engineer_dominationheavy09": "And another thing: you're ugly.",
+        "engineer_dominationheavy10": "Dumber than dirt, ain'tcha?",
+        "engineer_dominationheavy11": "You're dumb as a box of rocks!",
+        "engineer_dominationheavy12": "Y'all come back now! More where that came from.",
+        "engineer_dominationheavy13": "Dominated, fat man!",
+        "engineer_dominationheavy14": "You are a whole herd'a ugly.",
+        "engineer_dominationheavy15": "Gotcha, fat boy!"
+      },
+      "engineer": {
+        "index": "Engineer",
+        "engineer_dominationengineer01": "You just ain't doin' it right.",
+        "engineer_dominationengineer02": "Dominated, hardhat.",
+        "engineer_dominationengineer03": "A real Texan woulda dodged that.",
+        "engineer_dominationengineer04": "You can always tell a Texan, but you can't tell 'em much.",
+        "engineer_dominationengineer05": "You done incurred my wrath, son!",
+        "engineer_dominationengineer06": "I'm wolverine-mean, you son of a bitch.",
+        "engineer_dominationengineer07": "If ya done it, it ain't braggin'!",
+        "engineer_dominationengineer08": "You're all hardhat and no cattle.",
+        "engineer_dominationengineer09": "You shoulda oughta brought more gun, son."
+      },
+      "medic": {
+        "index": "Medic",
+        "engineer_dominationmedic01": "Doctor! I am the better man!",
+        "engineer_dominationmedic02": "Guess they didn't teach you to duck in doctor school!",
+        "engineer_dominationmedic03": "Keep comin' at me, doctor; eventually y'all gonna rustle up some sense.",
+        "engineer_dominationmedic04": "Next time, tend to your own knittin', sawbones.",
+        "engineer_dominationmedic05": "Sell your tonics elsewhere, miracle man.",
+        "engineer_dominationmedic06": "You must be a doctor, 'cause you just saw the extent of my patience!",
+        "engineer_dominationmedic07": "I'm a killer of men, doc. That is the God's honest truth.",
+        "engineer_dominationmedic08": "Slap a poultice on that, doc! (laughs sarcastically)"
+      },
+      "sniper": {
+        "index": "Sniper",
+        "engineer_dominationsniper01": "Ya oughta stand back a little more, like from me and my machines.",
+        "engineer_dominationsniper02": "Looks like that there just weren't the place you oughta be standin'!",
+        "engineer_dominationsniper03": "Dominated, campground.",
+        "engineer_dominationsniper04": "You shoulda oughta stayed back at your little campsite.",
+        "engineer_dominationsniper05": "Nobody likes a squatter!",
+        "engineer_dominationsniper06": "I just rode you out on a rail, down under.",
+        "engineer_dominationsniper07": "Aw, now ya don't look like a happy camper.",
+        "engineer_dominationsniper08": "Down under? More like, six feet down under."
+      },
+      "spy": {
+        "index": "Spy",
+        "engineer_dominationspy01": "Now just stop tryin' ta mess with my contraptions.",
+        "engineer_dominationspy02": "It ain't gettin' any harder for me to kill ya.",
+        "engineer_dominationspy03": "You know where ya oughta hide next time? Back in France.",
+        "engineer_dominationspy04": "Dominated, you turncoat.",
+        "engineer_dominationspy05": "Dominated, you snake!",
+        "engineer_dominationspy06": "This skunk's startin' to smell.",
+        "engineer_dominationspy07": "Slither on back to hell, coward!",
+        "engineer_dominationspy08": "That's what my daddy taught me to do to backstabbers.",
+        "engineer_dominationspy09": "You're a looooooong way from France, boy.",
+        "engineer_dominationspy10": "Don't go meddlin' in my business.",
+        "engineer_dominationspy11": "You are a coward and a scoundrel!",
+        "engineer_dominationspy12": "If y'all had more gadgets for killin' , you wouldn't need so many for hidin'.",
+        "engineer_dominationspy13": "I just beat on your sneaky ass like a mule, boy!"
+      },
+      "revenge": {
+        "index": "Revenge",
+        "engineer_battlecry07": "Ehee, yeeeehaaaaw!",
+        "engineer_cheers01": "Whooooeee!",
+        "engineer_cheers06": "Cream gravy.",
+        "engineer_cheers07": "Yippee-kiyah-yippee-i-ki-yo!",
+        "engineer_jeers04": "Ah, good night, Irene!",
+        "engineer_laughevil01": "(Evil laughter 1)",
+        "engineer_laughevil02": "(Evil laughter 2)",
+        "engineer_laughevil05": "(Evil laughter 5)",
+        "engineer_laughevil06": "(Evil laughter 6)",
+        "engineer_laughhappy01": "(Happy laughter 1)",
+        "engineer_laughhappy02": "(Happy laughter 2)",
+        "engineer_laughhappy03": "(Happy laughter 3)",
+        "engineer_laughlong01": "(Long laughter 1)",
+        "engineer_specialcompleted03": "Gutless.",
+        "engineer_taunts02": "You ladies shoulda' oughta' brought some menfolk with ya.",
+        "engineer_taunts04": "I'm done playin' games with you, boy.",
+        "engineer_revenge01": "That'll cut'cha back down to size.",
+        "engineer_revenge02": "You were gettin' too big for your britches"
+      }
+    },
+    "exclamation": {
+      "index": "Exclamation",
+      "battlecry": {
+        "index": "Battle Cry",
+        "engineer_battlecry01": "Yaaaaaaagh!",
+        "engineer_battlecry03": "Cowboy up!",
+        "engineer_battlecry04": "Move 'em out!",
+        "engineer_battlecry05": "Giddy up!",
+        "engineer_battlecry06": "Heeeeeeyaaah!",
+        "engineer_battlecry07": "Ehee, yeeeehaaaaw!"
+      },
+      "meleedare": {
+        "index": "Battle Cry - Looking at enemy",
+        "engineer_meleedare01": "Let's do this Texas style.",
+        "engineer_meleedare02": "You and me, pardner.",
+        "engineer_meleedare03": "You and me, hoss.",
+        "engineer_taunts01": "I'm gonna beat you like a rented mule, boy.",
+        "engineer_taunts03": "I'm gonna tear you down, junior!",
+        "engineer_taunts05": "You're all about to have a real bad day!",
+        "engineer_taunts06": "Come here, sissy!",
+        "engineer_taunts08": "Start prayin', boy!",
+        "engineer_taunts10": "I'm gonna lay you out!",
+        "engineer_taunts12": "Son! I'm gonna blow that dumb look right off your stupid face!"
+      },
+      "incoming": {
+        "index": "Incoming!",
+        "engineer_incoming01": "Innn-coming!",
+        "engineer_incoming02": "Incomin'!",
+        "engineer_incoming03": "Incoming!"
+      },
+      "sentryahead": {
+        "index": "Sentry Ahead!",
+        "engineer_sentryahead01": "Sentry right up ahead!",
+        "engineer_sentryahead02": "Sentry right up there!"
+      },
+      "spy": {
+        "index": "Spy!",
+        "engineer_cloakedspy01": "Hey boys, it's a Spy!",
+        "engineer_cloakedspy02": "Spy around here.",
+        "engineer_cloakedspy03": "There's a Spy creepin' around here!",
+        "engineer_cloakedspyidentify01": "That Scout's a Spy!",
+        "engineer_cloakedspyidentify02": "That Soldier's a Spy!",
+        "engineer_cloakedspyidentify04": "That Pyro's a Spy!",
+        "engineer_cloakedspyidentify05": "That Demo's a Spy!",
+        "engineer_cloakedspyidentify03": "That Heavy's a Spy!",
+        "engineer_cloakedspyidentify08": "That Engineer's a Spy!",
+        "engineer_cloakedspyidentify07": "That Medic's a Spy!",
+        "engineer_cloakedspyidentify09": "That Sniper's a Spy!",
+        "engineer_cloakedspyidentify06": "That Spy's one of them!",
+        "engineer_cloakedspyidentify10": "That Spy ain't on our side!"
+      }
+    },
+    "laugh": {
+      "index": "Laugh",
+      "laughevil": {
+        "index": "Evil laugh",
+        "engineer_laughevil01": "(Evil laughter 1)",
+        "engineer_laughevil02": "(Evil laughter 2)",
+        "engineer_laughevil03": "(Evil laughter 3)",
+        "engineer_laughevil04": "(Evil laughter 4)",
+        "engineer_laughevil05": "(Evil laughter 5)",
+        "engineer_laughevil06": "(Evil laughter 6)"
+      },
+      "laughhappy": {
+        "index": "Happy laugh",
+        "engineer_laughhappy01": "(Happy laughter 1)",
+        "engineer_laughhappy02": "(Happy laughter 2)",
+        "engineer_laughhappy03": "(Happy laughter 3)"
+      },
+      "laughlong": {
+        "index": "Long laugh",
+        "engineer_laughlong01": "(Long laughter 1)",
+        "engineer_laughlong02": "(Long laughter 2)"
+      },
+      "laughshort": {
+        "index": "Short laugh",
+        "engineer_laughshort01": "(Short laughter 1)",
+        "engineer_laughshort02": "(Short laughter 2)",
+        "engineer_laughshort03": "(Short laughter 3)",
+        "engineer_laughshort04": "(Short laughter 4)"
+      }
+    },
+    "negative": {
+      "index": "Negative",
+      "no": {
+        "index": "No",
+        "engineer_no01": "Nope.",
+        "engineer_no02": "Nah.",
+        "engineer_no03": "Heck no."
+      },
+      "jeers": {
+        "index": "Jeers",
+        "engineer_jeers01": "Boooooo!",
+        "engineer_jeers02": "Grrrrrrrr...",
+        "engineer_jeers03": "Come on, fellas!",
+        "engineer_jeers04": "Ah, good night, Irene!"
+      },
+      "negativevocalization": {
+        "index": "Negative",
+        "engineer_negativevocalization01": "Darn.",
+        "engineer_negativevocalization02": "Aw, shucks.",
+        "engineer_negativevocalization03": "Damnit!",
+        "engineer_negativevocalization04": "Damnit, fellas!",
+        "engineer_negativevocalization05": "Damnit, damnit, damnit, damnit!",
+        "engineer_negativevocalization06": "Aw, hell.",
+        "engineer_negativevocalization07": "Grrrr...[mumbles]",
+        "engineer_negativevocalization08": "Daugghh!",
+        "engineer_negativevocalization09": "[Loud, angry, and frustruated sigh]",
+        "engineer_negativevocalization10": "Dagnabit, damnit!",
+        "engineer_negativevocalization11": "Damn, dagnabit!",
+        "engineer_negativevocalization12": "Dagit nagit, nabit dagit!"
+      },
+      "autodejectedtie": {
+        "index": "Stalemate",
+        "engineer_autodejectedtie01": "That just ain't right!",
+        "engineer_autodejectedtie02": "Now I've seen everything!",
+        "engineer_autodejectedtie03": "Naahhh..."
+      }
+    },
+    "objective": {
+      "index": "Objective",
+      "autocappedcontrolpoint": {
+        "index": "Captured control point",
+        "engineer_autocappedcontrolpoint01": "We got it!",
+        "engineer_autocappedcontrolpoint02": "This one's ours now!",
+        "engineer_autocappedcontrolpoint03": "This here point's ours now!"
+      },
+      "autocappedintelligence": {
+        "index": "Captured intelligence",
+        "engineer_autocappedintelligence01": "Hell, that was easy.",
+        "engineer_autocappedintelligence02": "That's nothin'.",
+        "engineer_autocappedintelligence03": "Weren't no thing."
+      },
+      "fightoncap": {
+        "index": "Standing on enemy point",
+        "engineer_standonthepoint02": "Plant yerself on the point, mister!",
+        "engineer_standonthepoint01": "Plant yerself on that darn point, mister!"
+      },
+      "helpmecapture": {
+        "index": "Help! - Standing on enemy point",
+        "engineer_helpmecapture01": "Help me capture this point!",
+        "engineer_helpmecapture03": "Need help capping this point!",
+        "engineer_helpmecapture02": "This point ain't gonna cap itself! Get over here!"
+      },
+      "helpmedefend": {
+        "index": "Help! - Standing on friendly point",
+        "engineer_helpmedefend02": "I need help defending this point!",
+        "engineer_helpmedefend01": "We gotta hold this point!",
+        "engineer_helpmedefend03": "Hold this point!"
+      }
+    },
+    "positive": {
+      "index": "Positive",
+      "yes": {
+        "index": "Yes",
+        "engineer_yes01": "Yeah!",
+        "engineer_yes03": "Alrighty then.",
+        "engineer_yes02": "Heck yes!"
+      },
+      "cheers": {
+        "index": "Cheers",
+        "engineer_cheers01": "Whooooeee!",
+        "engineer_cheers02": "Whoooohou!",
+        "engineer_cheers03": "Job well done!",
+        "engineer_cheers04": "That wasn't even close.",
+        "engineer_cheers05": "Now that there was a fine piece of work.",
+        "engineer_cheers06": "Cream gravy.",
+        "engineer_cheers07": "Yippee-kiyah-yippee-i-ki-yo!"
+      },
+      "positivevocalization": {
+        "index": "Positive",
+        "engineer_positivevocalization01": "Well don't that beat all?"
+      },
+      "goodjob": {
+        "index": "Good Job!",
+        "engineer_goodjob02": "Good work.",
+        "engineer_goodjob01": "Nice job, pardner.",
+        "engineer_goodjob03": "Nice job."
+      },
+      "niceshot": {
+        "index": "Nice Shot!",
+        "engineer_niceshot02": "Nice shot!",
+        "engineer_niceshot03": "Nice shooting, Tex!",
+        "engineer_niceshot01": "Hell of a shot, mister!"
+      },
+      "thanks": {
+        "index": "Thanks!",
+        "engineer_thanks01": "Much obliged.",
+        "engineer_specialcompleted-assistedkill01": "Nice goin', pardner!",
+        "engineer_specialcompleted-assistedkill02": "Thanks, mister!"
+      },
+      "thanksfortheheal": {
+        "index": "Healed by Medic",
+        "engineer_thanksfortheheal01": "You're alright Doc.",
+        "engineer_thanksfortheheal02": "'Preciate it, Doc."
+      },
+      "thanksfortheteleporter": {
+        "index": "Teleported",
+        "engineer_thanksfortheteleporter01": "Much obliged, pardner.",
+        "engineer_thanksfortheteleporter02": "Thanks for the ride, pardner!"
+      }
+    },
+    "requests": {
+      "index": "Requests",
+      "go": {
+        "index": "Go!",
+        "engineer_go01": "Get going!",
+        "engineer_go02": "Move 'em out!",
+        "engineer_go03": "Go go go!"
+      },
+      "moveup": {
+        "index": "Move up!",
+        "engineer_moveup01": "Gotta move that gear up!"
+      },
+      "headleft": {
+        "index": "Go Left!",
+        "engineer_headleft01": "Head left.",
+        "engineer_headleft02": "To the left!"
+      },
+      "headright": {
+        "index": "Go Right!",
+        "engineer_headright01": "Head right.",
+        "engineer_headright02": "Go right.",
+        "engineer_headright03": "To the right!"
+      },
+      "helpme": {
+        "index": "Help!",
+        "engineer_helpme01": "Help!",
+        "engineer_helpme02": "Help me!",
+        "engineer_helpme03": "I need some doggone help!"
+      },
+      "needbuilding": {
+        "index": "Build here!",
+        "engineer_needdispenser01": "We need a Dispenser right here.",
+        "engineer_needsentry01": "We need a Sentry right here.",
+        "engineer_needteleporter01": "We need a Teleporter riiight here.",
+        "engineer_needteleporter02": "Somebody wanna rustle up a Teleporter right here?"
+      },
+      "medic": {
+        "index": "Medic!",
+        "engineer_medic01": "Doc!",
+        "engineer_medic02": "Medic!",
+        "engineer_medic03": "Meeeh-dic!"
+      },
+      "medicfollow": {
+        "index": "Medic! - Follow Me!",
+        "engineer_medicfollow01": "Follow me, Doc!",
+        "engineer_medicfollow02": "Over here, sawbones.",
+        "engineer_medicfollow03": "On me, Doc!"
+      },
+      "activatecharge": {
+        "index": "Medic! - Activate Übercharge!",
+        "engineer_activatecharge01": "Hit it, Doc!",
+        "engineer_activatecharge02": "Come on, hit it, Doc!",
+        "engineer_activatecharge03": "Charge me, Doc!"
+      }
+    },
+    "screams": {
+      "index": "Screams",
+      "autoonfire": {
+        "index": "On fire!",
+        "engineer_autoonfire01": "Fire, Fire! Ow oh oh oh-grr fire!",
+        "engineer_autoonfire02": "Fire!",
+        "engineer_autoonfire03": "I'm burnin' up."
+      },
+      "paincrticialdeath": {
+        "index": "Critical pain",
+        "engineer_paincrticialdeath01": "(Dying scream 1)",
+        "engineer_paincrticialdeath02": "(Dying scream 2)",
+        "engineer_paincrticialdeath03": "(Dying scream 3)",
+        "engineer_paincrticialdeath04": "(Dying scream 4)",
+        "engineer_paincrticialdeath05": "(Dying scream 5)",
+        "engineer_paincrticialdeath06": "(Dying scream 6)"
+      },
+      "painsevere": {
+        "index": "Severe pain",
+        "engineer_painsevere01": "(Groan 1)",
+        "engineer_painsevere02": "(Groan 2)",
+        "engineer_painsevere03": "(Groan 3)",
+        "engineer_painsevere04": "(Whimper 1)",
+        "engineer_painsevere05": "(Whimper 2)",
+        "engineer_painsevere06": "(Whimper 3)",
+        "engineer_painsevere07": "(Whimper 4)"
+      },
+      "painsharp": {
+        "index": "Sharp pain",
+        "engineer_painsharp01": "(Grunt 1)",
+        "engineer_painsharp02": "(Grunt 2)",
+        "engineer_painsharp03": "(Grunt 3)",
+        "engineer_painsharp04": "(Grunt 4)",
+        "engineer_painsharp05": "(Grunt 5)",
+        "engineer_painsharp06": "(Grunt 6)",
+        "engineer_painsharp07": "(Grunt 7)",
+        "engineer_painsharp08": "(Grunt 8)"
+      }
+    },
+    "special": {
+      "index": "Special",
+      "specialcompleted": {
+        "index": "Special completed",
+        "engineer_specialcompleted01": "Whoooowee, would ya look at that!",
+        "engineer_specialcompleted02": "Another satisfied customer!",
+        "engineer_specialcompleted03": "Gutless.",
+        "engineer_specialcompleted04": "Oh, ya yellow-bellied gutless coward!",
+        "engineer_specialcompleted05": "Whoooowee! Makin' bacon!",
+        "engineer_specialcompleted06": "I built that.",
+        "engineer_specialcompleted07": "Take it like a man, shorty.",
+        "engineer_specialcompleted08": "That's what it was made for.",
+        "engineer_specialcompleted09": "I told ya don't touch that darn thing.",
+        "engineer_specialcompleted10": "How'd that plan turn out for ya, dummy?",
+        "engineer_specialcompleted11": "That's what ya get!"
+      },
+      "taunts": {
+        "index": "Special taunts",
+        "engineer_taunts01": "I'm gonna beat you like a rented mule, boy.",
+        "engineer_taunts02": "You ladies shoulda' oughta' brought some menfolk with ya.",
+        "engineer_taunts03": "I'm gonna tear you down, junior!",
+        "engineer_taunts04": "I'm done playin' games with you, boy.",
+        "engineer_taunts05": "You're all about to have a real bad day!",
+        "engineer_taunts06": "Come here, sissy!",
+        "engineer_taunts08": "Start prayin', boy!",
+        "engineer_taunts09": "Get along there, little doggies!",
+        "engineer_taunts10": "I'm gonna lay you out!",
+        "engineer_taunts11": "Why don't you all get along before one of you gets hurt?",
+        "engineer_taunts12": "Son! I'm gonna blow that dumb look right off your stupid face!"
+      },
+      "autobuilding": {
+        "index": "Building",
+        "engineer_autobuildingdispenser01": "Erectin' a Dispenser.",
+        "engineer_autobuildingdispenser02": "Dispenser going up.",
+        "engineer_autobuildingsentry02": "Buildin' a Sentry.",
+        "engineer_autobuildingsentry01": "Sentry going up.",
+        "engineer_autobuildingteleporter01": "Teleporter comin' right up.",
+        "engineer_autobuildingteleporter02": "Teleporter goin' up."
+      },
+      "autoattackedbyspy": {
+        "index": "Building being sapped",
+        "engineer_autoattackedbyspy02": "Spy's sappin' my Dispenser!",
+        "engineer_autoattackedbyspy03": "Spy's sappin' my Sentry!",
+        "engineer_autoattackedbyspy01": "Spy's sappin' my Teleporter!"
+      },
+      "autodestroyed": {
+        "index": "Building destroyed",
+        "engineer_autodestroyeddispenser01": "Dispenser down!",
+        "engineer_autodestroyedsentry01": "Sentry down!",
+        "engineer_autodestroyedteleporter01": "Teleporter down!"
+      },
+      "sentrymoving": {
+        "index": "Moving building",
+        "engineer_sentrypacking01": "Packin' up!",
+        "engineer_sentrypacking02": "Movin' out!",
+        "engineer_sentrypacking03": "I'm movin' this!",
+        "engineer_sentrymoving01": "Heavy load comin' through!",
+        "engineer_sentrymoving02": "Outta mah way! Outta mah way!",
+        "engineer_sentrymoving03": "Go on, git!",
+        "engineer_sentryplanting01": "That was gettin' heavy!",
+        "engineer_sentryplanting02": "That there wasn't gettin' any lighter.",
+        "engineer_sentryplanting03": "Phew!"
+      }
+    },
+    "items": {
+      "index": "Items",
+      "wranglekills": {
+        "index": "Wrangler kill",
+        "engineer_wranglekills01": "This thing ain't on auto-pilot, son!",
+        "engineer_wranglekills02": "That's from yours truly, son.",
+        "engineer_wranglekills03": "Tagged ya.",
+        "engineer_wranglekills04": "Gotcha!"
+      },
+      "goldenwrenchkill": {
+        "index": "Golden weapon kill",
+        "engineer_goldenwrenchkill01": "That there is a gold-plated kill!",
+        "engineer_goldenwrenchkill02": "Guess I got the Midas touch.",
+        "engineer_goldenwrenchkill03": "At least you ain't worthless anymore.",
+        "engineer_goldenwrenchkill04": "Erectin' a statue of a moron."
+      },
+      "littlesentry": {
+        "index": "Mini-Sentry kill",
+        "engineer_littlesentry01": "Sometimes, you just need a little less gun.",
+        "engineer_littlesentry02": "Ain't that a cute little gun?",
+        "engineer_littlesentry03": "I love that little gun!"
+      },
+      "gunslingerpunch": {
+        "index": "Gunslinger punch",
+        "engineer_gunslingerpunch01": "Pow!",
+        "engineer_gunslingerpunch02": "Bam!",
+        "engineer_gunslingerpunch03": "Bap!"
+      },
+      "gunslingertriplepunchfinal": {
+        "index": "Third Gunslinger punch",
+        "engineer_gunslingertriplepunchfinal01": "Yeeeeeeeee-haw!",
+        "engineer_gunslingertriplepunchfinal02": "Haaaa!",
+        "engineer_gunslingertriplepunchfinal03": "Aargh!"
+      },
+      "gunslingercramp": {
+        "index": "Third Gunslinger punch",
+        "engineer_negativevocalization08": "Argh!",
+        "engineer_negativevocalization09": "Hrrr!"
+      },
+      "frontierjustice": {
+        "index": "Third Gunslinger punch",
+        "engineer_taunts05": "You're all about to have a real bad day!",
+        "engineer_taunts08": "Start prayin', boy!",
+        "engineer_taunts11": "Why don't you all get along before one of you gets hurt?"
+      }
+    }
+  },
   "scout": {
     "index": "Scout",
     "domination": {
