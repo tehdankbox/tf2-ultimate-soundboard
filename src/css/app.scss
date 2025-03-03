@@ -1,11 +1,89 @@
+@font-face {
+  font-family: 'TF2build';
+  src: url('src/assets/font/TF2build.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'TF2';
+  src: url('src/assets/font/TF2.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'TF2secondary';
+  src: url('src/assets/font/TF2secondary.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'TF2professor';
+  src: url('src/assets/font/TF2professor.ttf') format('truetype');
+  size-adjust: 200%;
+}
+
 // app global css in SCSS form
 
 body {
   color: $main-text;
 
+  & .q-toolbar {
+    box-shadow: 0 2px 2px $side-border;
+
+    & .toolbar-avatar {
+      margin-left: 0.75rem;
+      margin-right: 0.25rem;
+    }
+
+    & .q-toolbar__title {
+      font-family: 'TF2build', Verdana, sans-serif;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      color: $title-text;
+      text-shadow: 1px 1px 0 $title-shadow;
+
+      &.secondary-title {
+        text-align: right;
+      }
+    }
+  }
+
   // Drawer on the left side for page selection
   & .q-drawer.q-drawer--left {
     position: fixed;
+
+    & .q-list .q-item {
+      padding: 0.25rem 1rem;
+
+      & .q-item__section--avatar {
+        padding-right: 0.75rem;
+      }
+
+      & .q-item__label {
+        font-family: 'TF2professor', Verdana, sans-serif;
+        font-size: 1rem;
+        color: $main-text;
+      }
+
+      &.volume-item {
+        & .volume-text {
+          display: flex;
+        }
+
+        & .volume-slider {
+          display: none;
+        }
+
+        &:hover, &:active, &:focus-within {
+          & .volume-text {
+            display: none;
+          }
+
+          & .volume-slider {
+            display: flex;
+          }
+        }
+
+        & .q-slider__text {
+          font-family: Verdana;
+          color: $secondary-text;
+        }
+      }
+    }
   }
 }
 
@@ -54,7 +132,7 @@ body.desktop {
   .class-tabs {
     background: $primary;
     color: white;
-    width: 100vw;
+    width: 100%;
     height: 3rem;
     position: sticky;
     top: 50px;
@@ -64,11 +142,17 @@ body.desktop {
     & .active-tab {
       background: $secondary;
     }
+
+    & .q-tabs__arrow {
+      background: $secondary;
+    }
   }
 
   // Container for the voice lines
   .voiceline-tab {
-    .voiceline-button-container {
+    width: 100%;
+
+    & .voiceline-button-container {
       background: $primary;
       width: 100%;
       align-content: flex-start;

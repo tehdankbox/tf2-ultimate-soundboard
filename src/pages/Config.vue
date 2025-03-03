@@ -5,7 +5,7 @@
         <q-input
           v-model="volume"
           filled
-          label="Volume"
+          label="Volume (test)"
           mask="###"
           bg-color="white"
           dense

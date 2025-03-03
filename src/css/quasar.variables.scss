@@ -18,7 +18,12 @@ $background       : #4C261E;
 $main-border      : #682214;
 $accent           : #9C27B0;
 
-$main-text        : #E5E5E5;
+$side-background  : #63606B;
+$side-border      : #E4DED0;
+
+$title-text       : #ECE3CB;
+$title-shadow     : #2A2725;
+$main-text        : #ECECEC;
 $secondary-text   : #333333;
 
 // Color classes
@@ -571,7 +576,7 @@ $dark-shadows-up: ($dark-shadow-up-1, $dark-shadow-up-2, $dark-shadow-up-3, $dar
 
 $generic-border-radius          : 4px !default;
 $generic-hover-transition       : .3s cubic-bezier(.25, .8, .5, 1) !default;
-$typography-font-family         : 'Open Sans', '-apple-system', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$typography-font-family         : Verdana, sans-serif !default;
 $min-line-height                : 1.12 !default;
 
 $button-border-radius           : 3px !default;

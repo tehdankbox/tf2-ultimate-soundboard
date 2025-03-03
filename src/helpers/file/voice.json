@@ -1808,5 +1808,55 @@
         "soldier_cartstopitdefense03": "You will stand next to that cart or I will stand you next to that cart!"
       }
     }
+  },
+  "pyro": {
+    "index": "Pyro",
+    "requests": {
+      "index": "Requests",
+      "needbuilding": {
+        "index": "Build here!",
+        "pyro_needdispenser01": "Need a Dispenser here."
+      }
+    }
+  },
+  "demoman": {
+    "index": "demoman",
+    "requests": {
+      "index": "Requests",
+      "needbuilding": {
+        "index": "Build here!",
+        "demoman_needdispenser01": "Need a Dispenser here."
+      }
+    }
+  },
+  "medic": {
+    "index": "medic",
+    "requests": {
+      "index": "Requests",
+      "needbuilding": {
+        "index": "Build here!",
+        "medic_needdispenser01": "Ze Dispenser goes here."
+      }
+    }
+  },
+  "sniper": {
+    "index": "sniper",
+    "requests": {
+      "index": "Requests",
+      "needbuilding": {
+        "index": "Build here!",
+        "sniper_needdispenser01": "Need a Dispenser here."
+      }
+    }
+  },
+  "spy": {
+    "index": "spy",
+    "requests": {
+      "index": "Requests",
+      "needbuilding": {
+        "index": "Build here!",
+        "spy_needdispenser01": "Place a Dispenser here."
+      }
+    }
   }
 }

@@ -46,10 +46,13 @@ export default {
     };
   },
 
+  mounted() {
+    this.currentTab = loadTabsFromClass(this.activeScreen)[0].filename;
+  },
+
   watch: {
     activeScreen() {
       this.currentTab = loadTabsFromClass(this.activeScreen)[0].filename;
-      this.$emit('changeScreen', this.activeScreen);
     }
   },
 

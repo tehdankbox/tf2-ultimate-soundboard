@@ -2,62 +2,81 @@ export const pageOptions = {
   scout: {
     title: 'Scout',
     pageTitle: 'Scout Soundboard',
-    icon: 'code',
-    pageName: 'scout'
+    pageImage: 'Scoutava.png',
+    icon: 'Scout_emblem_RED.png',
+    pageName: 'scout',
+    link: '/index/scout',
   },
   soldier: {
     title: 'Soldier',
     pageTitle: 'Soldier Soundboard',
-    icon: 'school',
-    pageName: 'soldier'
+    pageImage: 'Soldierava.png',
+    icon: 'Soldier_emblem_RED.png',
+    pageName: 'soldier',
+    link: '/index/soldier',
   },
   pyro: {
     title: 'Pyro',
     pageTitle: 'Pyro Soundboard',
-    icon: 'chat',
-    pageName: 'pyro'
+    pageImage: 'Pyroava.png',
+    icon: 'Pyro_emblem_RED.png',
+    pageName: 'pyro',
+    link: '/index/pyro',
   },
   demoman: {
     title: 'Demoman',
     pageTitle: 'Demoman Soundboard',
-    icon: 'record_voice_over',
-    pageName: 'demoman'
+    pageImage: 'Demomanava.png',
+    icon: 'Demoman_emblem_RED.png',
+    pageName: 'demoman',
+    link: '/index/demoman',
   },
   heavy: {
     title: 'Heavy',
     pageTitle: 'Heavy Soundboard',
-    icon: 'rss_feed',
-    pageName: 'heavy'
+    pageImage: 'Heavyava.png',
+    icon: 'Heavy_emblem_RED.png',
+    pageName: 'heavy',
+    link: '/index/heavy',
   },
   engineer: {
     title: 'Engineer',
     pageTitle: 'Engineer Soundboard',
-    icon: 'public',
-    pageName: 'engineer'
+    pageImage: 'Engineerava.png',
+    icon: 'Engineer_emblem_RED.png',
+    pageName: 'engineer',
+    link: '/index/engineer',
   },
   medic: {
     title: 'Medic',
     pageTitle: 'Medic Soundboard',
-    icon: 'favorite',
-    pageName: 'medic'
+    pageImage: 'Medicava.png',
+    icon: 'Medic_emblem_RED.png',
+    pageName: 'medic',
+    link: '/index/medic',
   },
   sniper: {
     title: 'Sniper',
     pageTitle: 'Sniper Soundboard',
-    icon: 'favorite',
-    pageName: 'sniper'
+    pageImage: 'Sniperava.png',
+    icon: 'Sniper_emblem_RED.png',
+    pageName: 'sniper',
+    link: '/index/sniper',
   },
   spy: {
     title: 'Spy',
     pageTitle: 'Spy Soundboard',
-    icon: 'favorite',
-    pageName: 'spy'
+    pageImage: 'Spyava.png',
+    icon: 'Spy_emblem_RED.png',
+    pageName: 'spy',
+    link: '/index/spy',
   },
   config: {
     title: 'Config',
-    pageTitle: 'TF2 Soundboard - Config',
-    icon: 'settings',
+    pageTitle: 'Config',
+    pageImage: 'Configava.png',
+    icon: 'Cog_emblem_RED.png',
     pageName: 'config',
-    link: '/config'
+    link: '/config',
   },
 };

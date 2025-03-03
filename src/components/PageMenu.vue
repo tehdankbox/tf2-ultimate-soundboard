@@ -7,7 +7,7 @@
       v-if="icon"
       avatar
     >
-      <q-icon :name="icon" />
+      <q-icon size="3rem" :name="'img:src/assets/emblem/' + icon" />
     </q-item-section>
 
     <q-item-section>
@@ -45,9 +45,8 @@ export default defineComponent({
 
   methods: {
     clickHandler() {
-      if (!this.link) {
-        this.$router.push({ path: `/index/${this.pageName}` });
-      } else {
+      if (this.link) {
+        this.$emit('changeScreen', this.pageName);
         this.$router.push({ path: this.link });
       }
     }
