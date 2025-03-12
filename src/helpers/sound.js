@@ -1,5 +1,5 @@
-export const playSound = (path) => {
+export const playSound = (path, volume) => {
   var audio = new Audio(path);
-  audio.volume = 0.1;
+  audio.volume = (volume / 100) * 0.8;
   audio.play();
 };

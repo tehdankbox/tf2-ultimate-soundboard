@@ -1,27 +1,27 @@
 <template>
   <q-layout view="hHh lpR fFf">
-
     <q-header
       class="bg-primary text-white"
       height-hint="98"
     >
       <q-toolbar>
         <q-btn
-          dense
           flat
+          dense
           round
           icon="menu"
+          aria-label="Menu"
           @click="toggleLeftDrawer"
         />
 
         <q-icon
           class="toolbar-avatar"
           size="2rem"
-          :name="'img:src/assets/avatar/' + getPageImage"
+          :name="'img:src/assets/avatar/' + getPageImage()"
         />
 
         <q-toolbar-title>
-          {{ getPageTitle }}
+          {{ getPageTitle() }}
         </q-toolbar-title>
 
 
@@ -32,14 +32,14 @@
     </q-header>
 
     <q-drawer
-      show-if-above
       v-model="leftDrawerOpen"
-      side="left"
+      show-if-above
+      bordered
       class="text-primary-text bg-background"
     >
       <q-list>
         <PageMenu
-          v-for="link in getDrawerOptions"
+          v-for="link in getDrawerOptions()"
           :key="link.title"
           v-bind="link"
           @changeScreen="changeActiveScreen"
@@ -51,12 +51,12 @@
           </q-item-section>
 
           <q-item-section class="volume-text">
-            <q-item-label>Volume {{ volume }}</q-item-label>
+            <q-item-label>Volume {{ configStore.volume }}</q-item-label>
           </q-item-section>
 
           <q-item-section class="volume-slider">
             <q-slider
-              v-model="volume"
+              v-model="configStore.volume"
               :min="0"
               :max="100"
               color="white"
@@ -73,62 +73,44 @@
   </q-layout>
 </template>
 
-<script>
-import { defineComponent, ref } from 'vue';
-import PageMenu from 'src/components/PageMenu.vue';
-import { pageOptions } from 'src/helpers/pages.js';
+<script setup>
+import { ref } from 'vue'
+import { useQuasar } from 'quasar'
 
-export default defineComponent({
-  name: 'MainLayout',
+import { useConfigStore } from 'src/stores/config'
+import PageMenu from 'src/components/PageMenu.vue'
+import { pageOptions } from 'src/helpers/pages.js'
 
-  components: {
-    PageMenu
-  },
+const configStore = useConfigStore()
+const activeScreen = ref('scout')
+const leftDrawerOpen = ref(false)
+const $q = useQuasar()
 
-  data() {
-    return {
-      activeScreen: 'scout',
-      volume: 50,
-    };
-  },
+function toggleLeftDrawer () {
+  leftDrawerOpen.value = !leftDrawerOpen.value
+}
 
-  computed: {
-    getDrawerOptions() {
-      const mappedOptions = Object.keys(pageOptions).map((e) => {
-        return pageOptions[e];
-      });
+function getDrawerOptions() {
+  const mappedOptions = Object.keys(pageOptions).map((e) => {
+    return pageOptions[e]
+  })
 
-      return mappedOptions;
-    },
+  return mappedOptions
+}
 
-    getPageTitle() {
-      return pageOptions[this.activeScreen].pageTitle;
-    },
+function changeActiveScreen(screen) {
+  activeScreen.value = screen
 
-    getPageImage() {
-      return pageOptions[this.activeScreen].pageImage;
-    },
-  },
-
-  methods: {
-    changeActiveScreen(screen) {
-      this.activeScreen = screen;
-
-      if (this.$q.platform.is.mobile) {
-        this.leftDrawerOpen = false;
-      }
-    },
-  },
-
-  setup () {
-    const leftDrawerOpen = ref(false)
-
-    return {
-      leftDrawerOpen,
-      toggleLeftDrawer () {
-        leftDrawerOpen.value = !leftDrawerOpen.value
-      }
-    }
+  if ($q.platform.is.mobile) {
+    leftDrawerOpen.value = false
   }
-})
+}
+
+function getPageTitle() {
+  return pageOptions[activeScreen.value].pageTitle
+}
+
+function getPageImage() {
+  return pageOptions[activeScreen.value].pageImage
+}
 </script>

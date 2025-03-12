@@ -25,51 +25,49 @@
   </div>
 </template>
 
-<script>
-import { findPath, loadFilesFromTab, dupe } from 'src/helpers/file/index.js';
-import { playSound } from 'src/helpers/sound.js';
+<script setup>
+import { useConfigStore } from 'src/stores/config'
+import { findPath, loadFilesFromTab, dupe } from 'src/helpers/file/file.js'
+import { playSound } from 'src/helpers/sound.js'
 
-export default {
-  name: 'VoiceLineTab',
+const configStore = useConfigStore()
 
-  props: {
-    className: {
-      type: String,
-      required: true,
-    },
-
-    tab: {
-      type: String,
-      required: true,
-    }
+const props = defineProps({
+  className: {
+    type: String,
+    required: true,
   },
 
-  methods: {
-    findAndPlayFile(voiceName) {
-      const filePath = findPath(this.className, voiceName);
-      playSound(filePath);
-    },
+  tab: {
+    type: String,
+    required: true,
+  }
+})
 
-    getTabValues() {
-      const tabFiles = loadFilesFromTab(this.className, this.tab);
-      return tabFiles;
-    },
+function findAndPlayFile(voiceName) {
+  const filePath = findPath(props.className, voiceName)
+  playSound(filePath, configStore.volume)
+}
 
-    getCategoryValues(tab) {
-      let category = [];
+function getTabValues() {
+  const tabFiles = loadFilesFromTab(props.className, props.tab)
+  return tabFiles
+}
 
-      const tabObject = dupe(tab);
+function getCategoryValues(tab) {
+  let category = []
 
-      Object.keys(tabObject).forEach((e) => {
-        let obj = {
-          name: e,
-          label: tabObject[e]
-        }
-        category.push(obj);
-      });
+  const tabObject = dupe(tab)
 
-      return category;
+  Object.keys(tabObject).forEach((e) => {
+    let obj = {
+      name: e,
+      label: tabObject[e]
     }
-  },
-};
+    category.push(obj)
+  })
+
+  console.log(category)
+  return category
+}
 </script>

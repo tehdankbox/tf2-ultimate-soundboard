@@ -1,6 +1,6 @@
 # TF2 Ultimate Soundboard (tf2-ultimate-soundboard)
 
-Makes funny sounds from the hit game Team Fortress Two
+Makes funny sounds from the hit game Team Fortress 2
 
 ## Install the dependencies
 ```bash
@@ -29,7 +29,6 @@ yarn format
 # or
 npm run format
 ```
-
 
 
 ### Build the app for production

@@ -4,52 +4,50 @@
     @click="clickHandler"
   >
     <q-item-section
-      v-if="icon"
+      v-if="props.icon"
       avatar
     >
-      <q-icon size="3rem" :name="'img:src/assets/emblem/' + icon" />
+      <q-icon size="3rem" :name="'img:src/assets/emblem/' + props.icon" />
     </q-item-section>
 
     <q-item-section>
-      <q-item-label>{{ title }}</q-item-label>
+      <q-item-label>{{ props.title }}</q-item-label>
     </q-item-section>
   </q-item>
 </template>
 
-<script>
-import { defineComponent } from 'vue'
+<script setup>
+import { useRouter } from 'vue-router'
 
-export default defineComponent({
-  name: 'PageMenu',
-  props: {
-    title: {
-      type: String,
-      required: true
-    },
+const router = useRouter()
+const emit = defineEmits(['changeScreen'])
 
-    pageName: {
-      type: String,
-      default: 'scout'
-    },
-
-    icon: {
-      type: String,
-      default: ''
-    },
-
-    link: {
-      type: String,
-      default: undefined,
-    },
+const props = defineProps({
+  title: {
+    type: String,
+    required: true
   },
 
-  methods: {
-    clickHandler() {
-      if (this.link) {
-        this.$emit('changeScreen', this.pageName);
-        this.$router.push({ path: this.link });
-      }
-    }
-  }
+  pageName: {
+    type: String,
+    default: 'scout'
+  },
+
+  icon: {
+    type: String,
+    default: ''
+  },
+
+  link: {
+    type: String,
+    default: undefined,
+  },
 })
+
+function clickHandler() {
+  if (props.link) {
+    emit('changeScreen', props.pageName)
+    router.push({ path: props.link })
+  }
+}
 </script>

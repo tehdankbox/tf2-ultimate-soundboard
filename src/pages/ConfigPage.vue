@@ -3,9 +3,9 @@
     <div class="config-item">
       <div class="config-item-text">
         <q-input
-          v-model="volume"
+          v-model="configStore.volume"
           filled
-          label="Volume (test)"
+          label="Volume"
           mask="###"
           bg-color="white"
           dense
@@ -13,7 +13,7 @@
       </div>
 
       <q-slider
-        v-model="volume"
+        v-model="configStore.volume"
         snap
         :markers="10"
         :min="0"
@@ -27,21 +27,8 @@
   </q-page>
 </template>
 
-<script>
-export default {
-  name: 'PageConfig',
-  data() {
-    return {
-      volume: 50,
-    }
-  },
+<script setup>
+import { useConfigStore } from 'src/stores/config'
 
-  watch: {
-    volume(value) {
-      if (isNaN(value) || value > 100) {
-        this.volume = 100;
-      }
-    }
-  },
-};
+const configStore = useConfigStore()
 </script>
