@@ -8,7 +8,7 @@
       @update:model-value="resetTabScroll()"
     >
       <q-tab
-        v-for="(tab, index) in getClassTabs()"
+        v-for="(tab, index) in currentClass"
         :key="index"
         :label="tab.name"
         :name="tab.filename"
@@ -24,7 +24,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { loadTabsFromClass } from 'src/helpers/file/file.js'
 import VoiceLineTab from 'src/components/VoiceLineTab.vue'
 
@@ -35,23 +35,19 @@ const props = defineProps({
   }
 })
 
-const currentTab = ref('domination')
+const currentClass = computed(() => {
+  return loadTabsFromClass(props.activeScreen)
+})
+const currentTab = ref(currentClass.value[0].filename)
 
 watch(() => props.activeScreen, () => {
-  loadFirstTab()
+  reloadFirstTab()
 })
 
-onMounted(() => {
-  loadFirstTab()
-})
-
-function loadFirstTab() {
-  currentTab.value = loadTabsFromClass(props.activeScreen)[0].filename;
+function reloadFirstTab() {
+  currentTab.value = currentClass.value[0].filename;
 }
 
-function getClassTabs() {
-  return loadTabsFromClass(props.activeScreen)
-}
 
 function resetTabScroll() {
   document.documentElement.scrollTop = 0

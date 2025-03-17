@@ -1,11 +1,17 @@
 const routes = [
   {
-    path: '/',
-    redirect: { path: "/index/scout" },
+    path: '/index/:activeScreen',
+    component: () => import('layouts/MainLayout.vue'),
+    props: true,
+    children: [
+      { path: '', component: () => import('src/pages/IndexPage.vue'), props: true }
+    ],
+  },
+  {
+    path: '/config',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '/index/:activeScreen', component: () => import('src/pages/IndexPage.vue'), props: true },
-      { path: '/config', component: () => import('pages/ConfigPage.vue') },
+      { path: '', component: () => import('pages/ConfigPage.vue'), }
     ]
   },
 

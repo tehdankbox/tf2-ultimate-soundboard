@@ -42,7 +42,6 @@
           v-for="link in getDrawerOptions()"
           :key="link.title"
           v-bind="link"
-          @changeScreen="changeActiveScreen"
         />
 
         <q-item class="volume-item">
@@ -56,11 +55,12 @@
 
           <q-item-section class="volume-slider">
             <q-slider
-              v-model="configStore.volume"
+              :model-value="configStore.getVolume"
               :min="0"
               :max="100"
               color="white"
               label
+              @change="configStore.updateVolume"
             />
           </q-item-section>
         </q-item>
@@ -75,16 +75,20 @@
 
 <script setup>
 import { ref } from 'vue'
-import { useQuasar } from 'quasar'
 
 import { useConfigStore } from 'src/stores/config'
 import PageMenu from 'src/components/PageMenu.vue'
 import { pageOptions } from 'src/helpers/pages.js'
 
+const props = defineProps({
+  activeScreen: {
+    type: String,
+    default: 'soldier',
+  }
+})
+
 const configStore = useConfigStore()
-const activeScreen = ref('scout')
 const leftDrawerOpen = ref(false)
-const $q = useQuasar()
 
 function toggleLeftDrawer () {
   leftDrawerOpen.value = !leftDrawerOpen.value
@@ -98,19 +102,11 @@ function getDrawerOptions() {
   return mappedOptions
 }
 
-function changeActiveScreen(screen) {
-  activeScreen.value = screen
-
-  if ($q.platform.is.mobile) {
-    leftDrawerOpen.value = false
-  }
-}
-
 function getPageTitle() {
-  return pageOptions[activeScreen.value].pageTitle
+  return pageOptions[props.activeScreen].pageTitle
 }
 
 function getPageImage() {
-  return pageOptions[activeScreen.value].pageImage
+  return pageOptions[props.activeScreen].pageImage
 }
 </script>

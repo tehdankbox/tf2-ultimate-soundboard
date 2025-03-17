@@ -4,6 +4,7 @@ export default {
   voice: voiceJSON,
 };
 
+// não usado
 export const findFile = (className, voiceline, number) => {
   let voicelinePath = "";
   // separa o índice a ser acessado em um array
@@ -21,10 +22,11 @@ export const findFile = (className, voiceline, number) => {
   let file = accessedKeys[number - 1];
   let text = accessedObj[file];
 
-  console.log([file, text]);
+  // console.log([file, text]);
   return [file, text];
 };
 
+// não usado
 export const loadFilesFromCategory = (className, voiceline) => {
   let voicelinePath = "";
   // separa o índice a ser acessado em um array
@@ -32,14 +34,14 @@ export const loadFilesFromCategory = (className, voiceline) => {
     voicelinePath = voiceline.split("/");
   }
 
-  console.log(voicelinePath);
+  // console.log(voicelinePath);
 
   // acessa o objeto de acordo com o índice
   let accessedObj = voiceJSON[className];
   voicelinePath.forEach((level) => {
     accessedObj = accessedObj[level];
   });
-  console.log(accessedObj);
+  // console.log(accessedObj);
 
   return accessedObj;
 };

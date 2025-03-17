@@ -26,11 +26,8 @@
 </template>
 
 <script setup>
-import { useConfigStore } from 'src/stores/config'
 import { findPath, loadFilesFromTab, dupe } from 'src/helpers/file/file.js'
 import { playSound } from 'src/helpers/sound.js'
-
-const configStore = useConfigStore()
 
 const props = defineProps({
   className: {
@@ -46,7 +43,7 @@ const props = defineProps({
 
 function findAndPlayFile(voiceName) {
   const filePath = findPath(props.className, voiceName)
-  playSound(filePath, configStore.volume)
+  playSound(filePath)
 }
 
 function getTabValues() {
@@ -67,7 +64,6 @@ function getCategoryValues(tab) {
     category.push(obj)
   })
 
-  console.log(category)
   return category
 }
 </script>
